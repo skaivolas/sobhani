@@ -56,7 +56,7 @@ kinsman-redeemer he had mentioned was passing by, Boaz spoke to him
 and said...’
 
 When **perfective** aspect is used to describe an event, the event is
-portrayed **as a whole** (‘a com- plete and undifferentiated
+portrayed **as a whole** (‘a complete and undifferentiated
 process’—Porter 1992:21). The *qtl* and *wyyqtl* verb forms in
 Hebrew have perfective aspect. It follows that, in Ruth 4.1a (above),
 the *qtl* form *‘alâ* portrays the act of going up as a single
@@ -158,7 +158,7 @@ he guides me in paths-of righteousness for sake of his name
 
 The following are examples of *yqtl* forms that are without *waw*
 because a preposed constituent precedes them. Since *yqtl* forms are
-imperfective, they are used to portray the events as not com- plete
+imperfective, they are used to portray the events as not complete
 because they are still in the future (Ruth 1.17) or are habitual (Gen
 2.6a):
 
@@ -257,7 +257,7 @@ Longacre (1994) points out that *wqtl* chain clauses are the default
 way of presenting steps in a **procedure** when no discontinuity is to
 be signalled. The procedure may be prescriptive, as in the
 descriptions in Leviticus of the rituals to be followed in making
-offerings (pp. 52-53). Alternati- vely, it may be ‘something done over
+offerings (pp. 52-53). Alternatively, it may be ‘something done over
 and over again in the past’ (Bowling 1997:61), as in 1 Sam 17.34-35:
 
 (17.34b) *ro‘eh hayâ ‘abd*a*ka l*a*’abîw bacco’n*
@@ -390,7 +390,7 @@ the body of a text is UNMARKED for prominence’ (Dooley & Levinsohn
 ## 4. Backgrounding in Hebrew
 
 This section briefly discusses the significance of using other than
-the default verb form in narra- tives and procedures.
+the default verb form in narratives and procedures.
 
 I argue elsewhere (Levinsohn 2000:173*f*) that there is a need to
 distinguish between verb forms that **naturally** convey background
@@ -399,7 +399,7 @@ a **marked** way. In a narrative, for example, imperfective aspect
 **tends** to be used to present information of a background nature
 because it is the **natural** aspect to use to describe habitual or
 future actions. (Foley & Van Valin \[1984:373\] talk of an ‘inherent
-correlation’ between imperfec- tive aspect and background.)
+correlation’ between imperfective aspect and background.)
 
 However, there may be occasions when it is appropriate to portray a
 foreground event in narrative as not completed at the point of
@@ -421,7 +421,7 @@ on rare occasions is an unexpected aspect used to create a special
 effect. The latter part of this section concerns such occasions.
 
 The following chart presents the verb forms commonly found in the body
-of a narrative or a pro- cedure (i.e., excluding settings, non-events,
+of a narrative or a procedure (i.e., excluding settings, non-events,
 etc.), together with their basic and special functions:
 
 <table>
@@ -458,8 +458,8 @@ etc.), together with their basic and special functions:
 I first discuss **narrative** and, in particular, the difference
 between *(w)* X *qtl* and *wyyqtl* forms in that genre. The basic
 difference between these two forms is not one of background versus
-fore- ground (see Bailey & Levinsohn 1992). Rather, the *(w)* X *qtl*
-forms are used at points of discon- tinuity, as when there is a switch
+foreground (see Bailey & Levinsohn 1992). Rather, the *(w)* X *qtl*
+forms are used at points of discontinuity, as when there is a switch
 of attention from one participant or situation to another (see
 Levinsohn 2009 §3.1). No such discontinuity is signalled by *wyyqtl*
 forms.
@@ -492,7 +492,7 @@ used on several occasions in connection with climactic events
 (Longacre 1989).
 
 Gen 19.24 illustrates this phenomenon. At least some of the events of
-vv. 23-24 occur in chrono- logical sequence, yet all are presented
+vv. 23-24 occur in chronological sequence, yet all are presented
 with *(w)* X *qtl* forms, including the climactic event of
 24:{% sidenote '5' 'See also Gen 15.18a, 38.25 and 44.4c (discussed by Bailey &
 Levinsohn \[1992:202\]).' %}
@@ -517,10 +517,10 @@ w*ā*³*ē*š…*
 YHWH rained (*qtl*) burning sulphur on Sodom and Gomorrah...’
 
 *(W)qtl* forms that **begin** clauses may be used to **background**
-events because they are of a prelimi- nary nature in relation to the
+events because they are of a preliminary nature in relation to the
 storyline events that follow. This is illustrated in 1 Ki 21.12-13;
 the events of v. 12 (presented with *(w)qtl* forms) are readily
-interpreted as preliminary to and back- grounded with respect to the
+interpreted as preliminary to and backgrounded with respect to the
 storyline events of 13 (presented with *wyyqtl* forms):
 
 (21.12) *qar’û côm w*a*hošîbû ’et-nabôt b*a*ro’š ha‘am*
@@ -632,8 +632,9 @@ Dooley, Robert A., and Stephen H. Levinsohn. 2001. *Analyzing
 Discourse: A Manual of Basic Concepts*. Dallas: SIL International.
 
 Driver, S.R. 1892. *A Treatise on the Use of the Tenses in Hebrew*.
-3<sup>rd</sup> edition. Oxford: Clarendon Press. Fanning, Buist M.
-1990. *Verbal Aspect in New Testament Greek*. Oxford: Clarendon Press.
+3<sup>rd</sup> edition. Oxford: Clarendon Press.
+
+Fanning, Buist M. 1990. *Verbal Aspect in New Testament Greek*. Oxford: Clarendon Press.
 
 Foley, W. A., and R. D. Van Valin. 1984. *Functional Syntax and
 Universal Grammar*. Cambridge: Cambridge University Press.
