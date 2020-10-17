@@ -84,50 +84,12 @@ a present 23 times, and a future 14’.
 
 The following chart distinguishes the basic verb forms of Hebrew:
 
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th><blockquote>
-<p>Perfective</p>
-</blockquote></th>
-<th><blockquote>
-<p>Imperfective</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Without <em>waw</em>:</td>
-<td><blockquote>
-<p><em>qtl</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>yqtl</em></p>
-</blockquote></td>
-</tr>
-<tr class="even">
-<td><blockquote>
-<p>Conjunctive:</p>
-</blockquote></td>
-<td><blockquote>
-<p><em>wqtl*</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>wyqtl</em></p>
-</blockquote></td>
-</tr>
-<tr class="odd">
-<td>Chain (consecutive):</td>
-<td><blockquote>
-<p><em>wyyqtl</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>wqtl*</em></p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+||Perfective|Imperfective|
+|--- |--- |--- |
+|Without waw:|qtl|yqtl|
+|Conjunctive:|wqtl*|wyqtl|
+|Chain (consecutive):|wyyqtl|wqtl*|
+
 
 \*The position of the accent distinguishes the two *wqtl* forms for
 the first person singular and second person masculine singular of some
@@ -424,36 +386,12 @@ The following chart presents the verb forms commonly found in the body
 of a narrative or a procedure (i.e., excluding settings, non-events,
 etc.), together with their basic and special functions:
 
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th><blockquote>
-<p>narrative</p>
-</blockquote></th>
-<th><blockquote>
-<p>procedure</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>default theme line (no discontinuity marked)</td>
-<td><em>wyyqtl</em></td>
-<td><em>wqtl</em></td>
-</tr>
-<tr class="even">
-<td>discontinuity marked by preposing X:</td>
-<td><em>(w)</em> X <em>qtl</em></td>
-<td><em>(w)</em> X <em>yqtl</em></td>
-</tr>
-<tr class="odd">
-<td>special effects:</td>
-<td><em>wqtl</em></td>
-<td><em>wyyqtl</em></td>
-</tr>
-</tbody>
-</table>
+||narrative|procedure|
+|--- |--- |--- |
+|default theme line (no discontinuity marked)|wyyqtl|wqtl|
+|discontinuity marked by preposing X:|(w) X qtl|(w) X yqtl|
+|special effects:|wqtl|wyyqtl|
+
 
 I first discuss **narrative** and, in particular, the difference
 between *(w)* X *qtl* and *wyyqtl* forms in that genre. The basic
