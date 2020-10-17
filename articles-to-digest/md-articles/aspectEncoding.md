@@ -20,7 +20,7 @@ way of encoding storyline events.<sup>1</sup> Finally, section 4 con-
 cerns the significance of using other than the default verb form in
 narrative and procedural texts.
 
-## *Aspect (Perfectivity)*
+## 1. Aspect (Perfectivity)
 
 Verbal aspect is a way of **portraying** an event (it ‘reflects the
 subjective conception or portrayal by the speaker’—Fanning 1990:31). A
@@ -61,7 +61,7 @@ focus on the end of the journey; it simply views the journey as a
 whole. (The same argument applies to *wayyešeb* ‘& he sat’ \[4.1b\],
 *dibber* ‘spoke’ \[4.1d)\], and *wayyo’mer* ‘& he said’ \[4.1e\].)
 
-## *The Aspect of Hebrew Verbs*
+## 2. The Aspect of Hebrew Verbs
 
 English verbs convey both tense and aspect.<sup>2</sup> Thus, ‘he went
 up’ in English is a past tense verb with perfective aspect, while ‘he
@@ -288,7 +288,7 @@ events. That is why I classify them as having imperfective aspect,
 where imperfective is understood to include irrealis events because
 they too are not completed at the point of reference.
 
-## *The wyyqtl form as the default way of encoding events in narratives*
+## 3. The wyyqtl form as the default way of encoding events in narratives
 
 Two-way contrasts are very common in linguistics, and tend to be
 between a default and a marked member. A common mistake is to allocate
@@ -298,7 +298,7 @@ describe the **typical** function of the default member, it will not
 account for all instances of its usage. I now apply this observation
 to the function of *wyyqtl* forms in narrative.
 
-1.  *Wyyqtl* forms are not marked for chronological sequence
+### 3.1.*Wyyqtl* forms are not marked for chronological sequence
 
 In his 1989 book on Joseph, Longacre made a positive claim about
 *wyyqtl* clauses in Hebrew: viz., that they move the story forward,
@@ -357,7 +357,7 @@ they form part of a narrative (the linear presentation of events
 ‘imitates the purported chronological sequence of events in the real
 world’—op. cit. 48), without **requiring** that this be so.
 
-2.  *Wyyqtl* forms are not marked as foreground events in narrative
+### 3.2.  *Wyyqtl* forms are not marked as foreground events in narrative
 
 Storyline events are typically presented not only in the perfective
 aspect, but also with a specific verb form: the simple past in
@@ -397,7 +397,7 @@ presenting storyline events (Dr. Longacre agrees—p.c.). ‘Typically,
 the body of a text is UNMARKED for prominence’ (Dooley & Levinsohn
 2001:84).
 
-## *Backgrounding in Hebrew*
+## 4. Backgrounding in Hebrew
 
 This section briefly discusses the significance of using other than
 the default verb form in narra- tives and procedures.
@@ -642,9 +642,7 @@ preverbal elements in independent clauses in the Hebrew narrative of
 Genesis. *Journal of Translation and Textlinguistics* 5(3):179-207.
 
 Bowling, Andrew C. 1997. Another brief overview of the Hebrew verb.
-*Journal of Translation and Textlinguistics*
-
-9:48-69.
+*Journal of Translation and Textlinguistics* 9:48-69.
 
 Dooley, Robert A., and Stephen H. Levinsohn. 2001. *Analyzing
 Discourse: A Manual of Basic Concepts*. Dallas: SIL International.
@@ -666,19 +664,17 @@ Inga (Quechuan) dialects, In *Language Change in South American Indian
 Languages*, ed. by Mary Ritchie Key, 145-65. Philadelphia: University
 of Pennsylvania Press.
 
-———. 2000. *Discourse Features of New Testament Greek: A Coursebook on
+Levinsohn, Stephen H. 2000. *Discourse Features of New Testament Greek: A Coursebook on
 the Information Structure of New Testament Greek.* 2<sup>nd</sup>
 edition. Dallas: SIL International.
 
-———. 2009. *Self-Instruction Materials on Narrative Discourse
+Levinsohn, Stephen H. 2009. *Self-Instruction Materials on Narrative Discourse
 Analysis*. Online at
 [http://www.sil.org/\~levinsohns.](http://www.sil.org/~levinsohns)
 Longacre, Robert E. 1989. *Joseph: A Story of Divine Providence: A
-Text Theoretical and Textlinguistic Analysis of*
+Text Theoretical and Textlinguistic Analysis of* *Genesis 37 and 39-48*. Winona Lake: Eisenbrauns.
 
-*Genesis 37 and 39-48*. Winona Lake: Eisenbrauns.
-
-———. 1994. *Weqatal* forms in Biblical Hebrew prose. In *Biblical
+Levinsohn, Stephen H. 1994. *Weqatal* forms in Biblical Hebrew prose. In *Biblical
 Hebrew and Discourse Linguistics*, ed. by Robert
 
 D. Bergen, 50-98. Dallas: Summer Institute of Linguistics.
