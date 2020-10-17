@@ -84,12 +84,13 @@ a present 23 times, and a future 14’.
 
 The following chart distinguishes the basic verb forms of Hebrew:
 
+<div class="table-wrapper">
 ||Perfective|Imperfective|
 |--- |--- |--- |
 |Without waw:|qtl|yqtl|
 |Conjunctive:|wqtl*|wyqtl|
 |Chain (consecutive):|wyyqtl|wqtl*|
-
+</div>
 
 \*The position of the accent distinguishes the two *wqtl* forms for
 the first person singular and second person masculine singular of some
@@ -386,12 +387,14 @@ The following chart presents the verb forms commonly found in the body
 of a narrative or a procedure (i.e., excluding settings, non-events,
 etc.), together with their basic and special functions:
 
+
+<div class="table-wrapper">
 ||narrative|procedure|
 |--- |--- |--- |
 |default theme line (no discontinuity marked)|wyyqtl|wqtl|
 |discontinuity marked by preposing X:|(w) X qtl|(w) X yqtl|
 |special effects:|wqtl|wyyqtl|
-
+</div class="table-wrapper">
 
 I first discuss **narrative** and, in particular, the difference
 between *(w)* X *qtl* and *wyyqtl* forms in that genre. The basic
