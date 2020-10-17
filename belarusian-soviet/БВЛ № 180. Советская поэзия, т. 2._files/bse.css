@@ -1,0 +1,31 @@
+BODY{color:#000;background:#FFFFFF}
+P,H1,H2,H3,H4,H5,UL,OL {margin-left:5%;margin-right:10%;max-width:210mm;min-width:210}
+TD P, LI P, TD H1, TD H2, TD H3, TD H4 {margin-left:1%;margin-right:1%}
+.wde {margin-left:0;margin-right:0;max-width:400mm}
+BODY,P,FONT{font-family:Arial,"Times New Roman",Helvetica}
+H1,H2,H3,H4,H5 {font-family:"Times New Roman",Times,serif}
+SMALL P {margin-top:0; padding-top:0; margin-bottom:0; padding-bottom:0}
+HR {text-align:center}
+SMALL HR {text-align:LEFT}
+H1,H2,H3 {font-weight:normal}
+.rzr {letter-spacing:0.2em}
+.hug {font-size:300%}
+.bhg {font-size:150%;font-family:"Times New Roman"}
+.bib {font-size:175%}
+.sma {font-size:80%}
+.igs {margin-left:15%;font-size:80%;text-align:justify}
+.mth {font-family:"Times New Roman";font-size:120%}
+.nrm {text-align:justify;text-indent:10;padding-top:0;margin-top:0;padding-bottom:0;margin-bottom:0}
+.mrn {text-align:justify;text-indent:-2em;padding-left:2em;padding-top:0;margin-top:0;padding-bottom:0;margin-bottom:0}
+.nrp {text-align:justify;text-indent:0;padding-top:0;margin-top:0;padding-bottom:0;margin-bottom:0}
+.ts {font-family:"Times New Roman",Arial,Tahoma; color:#000080; font-size:150%}
+.pic {padding-left:1em; padding-right:1em; font-size:80%}
+.picl {padding-right:1em; font-size:80%}
+.picr {padding-left:1em; font-size:80%}
+.opp {color:#000098; font-size:80%}
+.ptx {font-family:"Times New Roman";background:#FFFFFF}
+.ax {padding-left:1em; padding-right:1em; padding-top:1em; padding-bottom:1em; background:#D0D0B0}
+.otx {background:#DDCC99}
+.bor {border-width:1; border-style:solid}
+.bordn {border-width:1; border-style:solid; border-top-style:none}
+.borup {border-width:1; border-style:solid; border-bottom-style:none}
