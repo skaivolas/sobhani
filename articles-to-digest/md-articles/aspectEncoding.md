@@ -396,6 +396,15 @@ etc.), together with their basic and special functions:
 |special effects:|wqtl|wyyqtl|
 </div class="table-wrapper">
 
+
+
+|                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
+|:----------------|----:|-----:|-------:|-------:|-------:|----:|
+|Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
+|Mazda RX4 Wag    |21   |6     |160     |110     |3.90    |2.88 |
+|Datsun 710       |22.8 |4     |108     |93      |3.85    |2.32 |
+etc...
+
 I first discuss **narrative** and, in particular, the difference
 between *(w)* X *qtl* and *wyyqtl* forms in that genre. The basic
 difference between these two forms is not one of background versus
