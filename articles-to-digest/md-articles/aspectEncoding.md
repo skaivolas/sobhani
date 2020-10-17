@@ -26,14 +26,6 @@ cerns the significance of using other than the default verb form in
 narrative and procedural texts.
 
 
-{% marginnote 'Table-ID4' 'Table 4: a simple table showing left, center, and right alignment of table headings and data'  %}
-
-|**Left** |**Center**|**Right**|
-|:--------|:--------:|--------:|
- Aardvarks|         1|$3.50
-       Cat|   5      |$4.23
-  Dogs    |3         |$5.29
-
 ## 1. Aspect (Perfectivity)
 
 Verbal aspect is a way of **portraying** an event (it ‘reflects the
@@ -93,13 +85,15 @@ a present 23 times, and a future 14’.
 
 The following chart distinguishes the basic verb forms of Hebrew:
 
-<div class="table-wrapper">
+
+{% marginnote 'Table-ID1' ''  %}
+
 ||Perfective|Imperfective|
 |--- |--- |--- |
 |Without waw:|qtl|yqtl|
 |Conjunctive:|wqtl*|wyqtl|
 |Chain (consecutive):|wyyqtl|wqtl*|
-</div>
+
 
 \*The position of the accent distinguishes the two *wqtl* forms for
 the first person singular and second person masculine singular of some
@@ -397,22 +391,15 @@ of a narrative or a procedure (i.e., excluding settings, non-events,
 etc.), together with their basic and special functions:
 
 
-<div class="table-wrapper">
+{% marginnote 'Table-ID1' ''  %}
+
 ||narrative|procedure|
 |--- |--- |--- |
 |default theme line (no discontinuity marked)|wyyqtl|wqtl|
 |discontinuity marked by preposing X:|(w) X qtl|(w) X yqtl|
 |special effects:|wqtl|wyyqtl|
-</div>
 
 
-
-|                 |mpg  | cyl  |  disp  |   hp   |  drat  | wt  |
-|:----------------|----:|-----:|-------:|-------:|-------:|----:|
-|Mazda RX4        |21   |6     |160     |110     |3.90    |2.62 |
-|Mazda RX4 Wag    |21   |6     |160     |110     |3.90    |2.88 |
-|Datsun 710       |22.8 |4     |108     |93      |3.85    |2.32 |
-etc...
 
 I first discuss **narrative** and, in particular, the difference
 between *(w)* X *qtl* and *wyyqtl* forms in that genre. The basic
