@@ -12,11 +12,16 @@ seo:
 iflanding: "yes"
 ---
 This article first considers what is meant by perfective and
-imperfective aspect (sec. 1), then (sec.
-
-2\) discusses the aspects conveyed by different Hebrew verb forms.
+imperfective aspect (sec. 1), then (sec. 2\) discusses the aspects conveyed by different Hebrew verb forms.
 Section 3 reasons that *wyyqtl* forms should be viewed as the default
-way of encoding storyline events.<sup>1</sup> Finally, section 4 con-
+way of encoding storyline events.{% sidenote '1' 'I follow Bowling (1997:50-51) in referring to the basic verb forms
+of Hebrew as *qtl, yqtl, wqtl, wyyqtl* and verbal participle. Waltke &
+O’Connor (1990) call *qtl* (*qatal*) forms the ‘suffix conjugation’,
+*yqtl* (*yiqtol*) forms the ‘prefix conjugation’, and *wqtl*
+(*w*a*qatal*) forms the ‘relative *waw* + suffix conjugation’. SIL
+International’s ‘Bible Analysis and Research Tool (BART) tags both
+*qtl* and *wqtl* forms as ‘p: perfect’. It tags *yqtl* forms as ‘i:
+imperfect’ and *wyyqtl* (*wayyiqtol*) forms as ‘w: waw consecutive’.' %} Finally, section 4 con-
 cerns the significance of using other than the default verb form in
 narrative and procedural texts.
 
@@ -63,7 +68,9 @@ whole. (The same argument applies to *wayyešeb* ‘& he sat’ \[4.1b\],
 
 ## 2. The Aspect of Hebrew Verbs
 
-English verbs convey both tense and aspect.<sup>2</sup> Thus, ‘he went
+English verbs convey both tense and aspect.{% sidenote '2' 'When a verb is marked for tense, it indicates a relationship between
+the time of the situation described and the time of speaking or some
+other point of reference in time.' %} Thus, ‘he went
 up’ in English is a past tense verb with perfective aspect, while ‘he
 was passing by’ is a past tense verb with imperfective aspect.
 
@@ -74,19 +81,6 @@ this by considering how the RSV translators of the book of Job render
 *qtl* verbs. They render them ‘as a past tense 252 times and as a
 present tense 244 times; in its bound form *wqtl* as a past 12 times,
 a present 23 times, and a future 14’.
-
-1 I follow Bowling (1997:50-51) in referring to the basic verb forms
-of Hebrew as *qtl, yqtl, wqtl, wyyqtl* and verbal participle. Waltke &
-O’Connor (1990) call *qtl* (*qatal*) forms the ‘suffix conjugation’,
-*yqtl* (*yiqtol*) forms the ‘prefix conjugation’, and *wqtl*
-(*w*a*qatal*) forms the ‘relative *waw* + suffix conjugation’. SIL
-International’s ‘Bible Analysis and Research Tool (BART) tags both
-*qtl* and *wqtl* forms as ‘p: perfect’. It tags *yqtl* forms as ‘i:
-imperfect’ and *wyyqtl* (*wayyiqtol*) forms as ‘w: waw consecutive’.
-
-2 When a verb is marked for tense, it indicates a relationship between
-the time of the situation described and the time of speaking or some
-other point of reference in time.
 
 The following chart distinguishes the basic verb forms of Hebrew:
 
@@ -185,7 +179,13 @@ Bowling (p.c.) classifies 1 Ki 21.12b (above) as a **conjunctive *wqtl
 ***clause. It is conjoined to a
 
 *wqtl* clause, has the same subject, and is readily interpreted as
-having perfective aspect.<sup>3</sup>
+having perfective aspect.{% sidenote '3' 'There is no formal difference between conjunctive *wqtl* and *wqtl*
+chain forms in the third person. Driver (1892) suggested that the
+*wqtl* form has ‘lost its individuality and passed under the sway of
+the verb to which it is connected’ (Waltke & O’Connor 1990:465).
+However, see Gen 26.22 below for an exception; a *wqtl* clause with a
+different subject from the preceding *qtl* clause is interpreted as a
+*wqtl* chain form.' %}
 
 Job 22.27b provides an example of a ***wyqtl*** clause; it is
 conjoined to a *yqtl* clause: (22.27a) *ta‘tîr ’elayw //* (27b)
@@ -203,17 +203,15 @@ already noted that the *wyyqtl* chain form has perfective aspect (sec.
 1; this form is further discussed in sec. 3). I now consider the
 ***wqtl*** chain form.
 
-3 There is no formal difference between conjunctive *wqtl* and *wqtl*
-chain forms in the third person. Driver (1892) suggested that the
-*wqtl* form has ‘lost its individuality and passed under the sway of
-the verb to which it is connected’ (Waltke & O’Connor 1990:465).
-However, see Gen 26.22 below for an exception; a *wqtl* clause with a
-different subject from the preceding *qtl* clause is interpreted as a
-*wqtl* chain form.
-
 Like *yqtl* clauses, *wqtl* chain clauses have imperfective aspect.
 This is seen in Gen 2.6 (describing a habitual event in the past) and
-12.12 (predicting future events):<sup>4</sup>
+12.12 (predicting future events):{% sidenote '4' 'Because *wqtl* chain forms most often describe events that have not
+yet been realised, some grammarians prefer to say that they have
+irrealis mood. However, passages such as Gen 2.6b, 1 Sam 17.34-35 and
+Ex 1.19e show that they are also used to describe habitual realis
+events. That is why I classify them as having imperfective aspect,
+where imperfective is understood to include irrealis events because
+they too are not completed at the point of reference.' %}
 
 (2.6a) *w*a*’ed ya‘aleh min-ha’arec //* (6b) *w*a*hišqâ
 ’et-kol-p*a*nê-ha’adamâ*
@@ -279,14 +277,6 @@ flock, I would go (*wqtl*) after it...’
 
 See section 4 on the status of *wqtl* chain clauses in narrative, and
 of *wyyqtl* chain clauses in procedures.
-
-4 Because *wqtl* chain forms most often describe events that have not
-yet been realised, some grammarians prefer to say that they have
-irrealis mood. However, passages such as Gen 2.6b, 1 Sam 17.34-35 and
-Ex 1.19e show that they are also used to describe habitual realis
-events. That is why I classify them as having imperfective aspect,
-where imperfective is understood to include irrealis events because
-they too are not completed at the point of reference.
 
 ## 3. The wyyqtl form as the default way of encoding events in narratives
 
@@ -504,7 +494,8 @@ used on several occasions in connection with climactic events
 Gen 19.24 illustrates this phenomenon. At least some of the events of
 vv. 23-24 occur in chrono- logical sequence, yet all are presented
 with *(w)* X *qtl* forms, including the climactic event of
-24:<sup>5</sup>
+24:{% sidenote '5' 'See also Gen 15.18a, 38.25 and 44.4c (discussed by Bailey &
+Levinsohn \[1992:202\]).' %}
 
 (19.21*f*) ‘He said to him \[Lot\], ‘... But flee there quickly,
 because I cannot do anything until you reach it.
@@ -560,15 +551,17 @@ w*a*’et-harakeb*
 horses and chariots and inflicted (*wqtl*) heavy losses on the
 Arameans.’
 
-5 See also Gen 15.18a, 38.25 and 44.4c (discussed by Bailey &
-Levinsohn \[1992:202\]).
-
 I suggest that the imperfective is not used in the last clause of the
 episode to suggest that the king of Israel continued to inflict heavy
 losses on the Arameans. Rather, it indicates that the episode forms
 part of a larger story, with this event setting the scene for the next
 episode (vv. 22*ff* describe the efforts of the king of Aram to recoup
-his losses).<sup>6</sup>
+his losses).{% sidenote '6' 'This employment of an imperfective to point forward may be compared
+to the use of the historical present in Greek to present the
+concluding event of an episode when the event points forward to a
+later episode (Levinsohn 2000:206, 245). See also Longacre’s
+observation that the *wqtl* chain form of *wayhî* ‘it happened’ is
+used to point forward to a climactic event (1994:84, 95).' %}
 
 I turn now to **procedural** texts. The difference between *wqtl*
 chain forms and *(w)* X *yqtl* forms is the same as that between
@@ -602,7 +595,9 @@ is illustrated in 1 Sam 17.35. As noted in section 2, David is
 describing a series of events that were done over and over again in
 the past. They are presented with *wqtl* chain forms. However, the act
 performed by the wild animal that leads to the climactic event
-performed by David uses a *wyyqtl* form:<sup>7</sup>
+performed by David uses a *wyyqtl* form:{% sidenote '7' 'Cross-linguistically, it is common for the event that immediately
+precedes the climax to be backgrounded in some way; see Levinsohn
+1991:150 on this phenomenon in Inga (Quechuan).' %}
 
 (17.35) *w*a*yaca’tî ’aZarayw // w*a*hikkitîw // w*a*hiccaltî
 mippîw//*
@@ -623,17 +618,6 @@ See also 1 Sam 2.16 (cited by Longacre 1994:62). It is the protest by
 the man who brought the offering (v. 16a), which is introduced with a
 *wyyqtl* form, that leads to the climactic retort by the priest’s
 servant (v. 16b—using a *wqtl* chain form).
-
-6 This employment of an imperfective to point forward may be compared
-to the use of the historical present in Greek to present the
-concluding event of an episode when the event points forward to a
-later episode (Levinsohn 2000:206, 245). See also Longacre’s
-observation that the *wqtl* chain form of *wayhî* ‘it happened’ is
-used to point forward to a climactic event (1994:84, 95).
-
-7 Cross-linguistically, it is common for the event that immediately
-precedes the climax to be backgrounded in some way; see Levinsohn
-1991:150 on this phenomenon in Inga (Quechuan).
 
 ## *References*
 
