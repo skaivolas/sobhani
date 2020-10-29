@@ -1,0 +1,882 @@
+<html>
+<body id="chapitre-5610" class="textes chapitre">
+<h2 class="suptitle">Chapitre IV</h2>
+<h1 class="title">Structure syntagmatique</h1>
+<div id="shortcuts"> <a href="#text" title="Text">Text</a> <a href="#notes" title="Anmerkungen">Anmerkungen</a> </div> <div id="text">
+<h2 class="section">Volltext</h2>
+<div id="widgets" class="withTextSize"></div>
+<div class="text wResizable medium">
+<p class="texte"><span class="paranumber">1</span>Le minimalisme, comme tous les modèles génératifs qui l’ont précédé, pose la question du statut de la « structure syntagmatique » (<em>phrase structure</em> ; on parle aussi de « structure en constituants », <em>constituent structure</em>). On désigne ainsi le groupement des éléments de la phrase en unités syntaxiques hiérarchiquement organisées, correspondant généralement à des séquences plus étendues que les mots, mais pouvant aussi se réduire à un mot, groupement qui sert de base à l’énoncé de régularités distributionnelles, sémantiques et phonologiques. Dans la caractérisation de la structure syntagmatique, une grammaire formelle doit affronter deux questions indépendantes :</p>
+<table class="example">
+<tr>
+<td>(1)</td>
+<td>Quelles propriétés doivent manifester les structures syntagmatiques associées aux énoncés d’une langue L pour être empiriquement adéquates ?</td>
+</tr>
+</table>
+<table class="example">
+<tr>
+<td>(2)</td>
+<td>Comment ces structures syntagmatiques sont-elles construites ? Quels mécanismes formels génèrent l’ensemble infini des indicateurs syntagmatiques d’une langue L ?</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">1</span> La notion de c-commande est définie en (13).</li>
+</ul>
+<p class="texte"><span class="paranumber">2</span>La réponse à la question (1) détermine pour une large part celle qui est apportée à la question (2). C’est donc (1) qu’il faut examiner dans un premier temps. On ne peut résoudre le problème de l’infinité discrète de la syntaxe des langues naturelles sans admettre au préalable que les phrases ne se réduisent pas à de simples séquences de mots, mais sont des objets complexes, hiérarchiquement structurés, dans lesquels les mots sont regroupés pour former des expressions, elles-mêmes combinées avec d’autres expressions pour former des énoncés. En bref, le mode d’organisation des objets linguistiques est hiérarchique, non linéaire. Et les syntacticiens ont à leur disposition un ensemble de tests permettant de déterminer la structure en constituants des phrases et des syntagmes (possibilité de pronominaliser un élément, de l’élider, de le déplacer, de le coordonner avec un autre…). Une théorie de la structure syntagmatique doit être capable de représenter les relations hiérarchiques qui se vérifient entre les différents objets syntaxiques qui constituent l’énoncé. C’est là une exigence minimale. Elle doit aussi pouvoir dériver l’observation que les structures syntaxiques sont en général endocentriques (au sens où chaque constituant est organisé autour d’un élément lexical pivot) et semblent ne présenter que des branchements binaires, que, mis à part cet élément, tous les constituants d’un syntagme complexe sont eux-mêmes des projections, et qu’un grand nombre de relations de dépendance entre éléments semble impliquer une relation structurale particulière (la c-commande).<a class="footnotecall" id="bodyftn1" href="#ftn1">1</a> Satisfaire à ces exigences permet de se faire une idée plus exacte de la forme que doivent prendre les objets syntagmatiques et de leurs propriétés, condition nécessaire pour caractériser le mécanisme qui construit ces objets. Dans le minimalisme, la structure syntagmatique prend la forme d’une <em>bare phrase structure.</em> Le mécanisme qui la produit est l’opération <em>Merge.</em></p>
+</div>
+<p class="texte"><span class="paranumber">3</span>Avant de détailler la proposition minimaliste, il n’est pas inutile de rappeler les étapes essentielles de la pensée générative sur la structure syntagmatique, en indiquant, chemin faisant, pour quelles raisons théoriques ou empiriques certaines options, adoptées en un premier temps, ont ensuite été écartées ou reformulées en des termes différents. C’est l’objet de la première partie de ce chapitre. Les propriétés des objets syntagmatiques nus, la caractérisation de <em>Merge</em>, la question des labels sont abordées dans la deuxième partie. La troisième partie considère la possibilité d’étendre le champ de l’opération <em>Merge</em>, en définissant, aux côtés du <em>Merge</em> externe, un <em>Merge</em> interne, un <em>Merge</em> de paire et un <em>Merge</em> parallèle. La quatrième traite de la Condition d’extension. La cinquième et la sixième partie examinent les relations structurales, basiques et dérivées, pouvant être définies sur les structures produites par <em>Merge</em>. La dernière conclut le chapitre.</p>
+<h1 class="texte"><a href="#tocfrom1n1" id="tocto1n1">1. De <em>Syntactic Structures</em> à <em>Barriers</em></a></h1>
+<p class="texte"><span class="paranumber">4</span>Il est particulièrement intéressant de reconsidérer l’évolution des grammaires chomskyennes à la lumière des questions (1) et (2). On retiendra tout particulièrement trois moments de cette évolution. La théorie X-barre, introduite au début des années soixante-dix, est née de l’observation que les règles de structure syntagmatique classiques échouent à représenter certaines régularités fondamentales de la constituance des langues naturelles, en particulier le fait que les syntagmes s’organisent autour d’un élément pivot, la tête, qui détermine l’identité catégorielle du syntagme tout entier. Au début des années quatre-vingt, sous la pression combinée d’une analyse plus étendue des données et d’une réflexion théorique continuée, les règles de structure syntagmatique (ou règles syntagmatiques) en usage dans les premières grammaires chomskyennes ont été abandonnées, parce qu’une part importante de l’information qu’elles contenaient était donnée ailleurs, dans le Lexique. L’émergence du Programme Minimaliste au début des années quatre-vingt-dix s’est accompagnée d’une réévaluation du statut de la théorie X-barre. Chomsky s’est attaché à démontrer qu’au moins certains des effets habituellement associés à cette théorie étaient dérivables des propriétés de <em>Merge</em>.</p>
+<p class="texte"><span class="paranumber">5</span>Touchant (2), on sait qu’en 1957, date de la publication de <em>Syntactic Structures</em>, le consensus était que la grammaire syntagmatique d’une langue L devait incorporer un système de règles de réécriture, permettant d’exprimer les faits structuraux basiques de L en générant un ensemble d’indicateurs syntagmatiques (<em>P-markers</em>), spécifiant : <br />(i) les relations de dominance, c’est-à-dire le groupement hiérarchique des constituants dans les structures de L ; <br />(ii) le label de chaque constituant, c’est-à-dire le type catégoriel particulier qu’il instancie ; <br />(iii) les relations de précédence ou de succession, c’est-à-dire l’ordre linéaire des séquences résultantes. <br />Les règles de réécriture peuvent prendre deux formes, selon qu’elles sont dépendantes du contexte (<em>context-sensitive</em>) ou indépendantes du contexte (<em>context-free</em>). Une règle de réécriture indépendante du contexte étend une catégorie unique en une suite ordonnée de catégories (ou en une seule catégorie), sans qu’aucun contexte d’application soit spécifié pour son application. Le schéma général auquel se conforme une règle indépendante du contexte est donné en (3) ; (4) est un fragment de grammaire syntagmatique.</p>
+<table class="example">
+<tr>
+<td>(3)</td>
+<td>A ➝ B C</td>
+</tr>
+</table>
+<table class="example">
+<tr>
+<td>(4)</td>
+<td>a. </td>
+<td>S ➝ NP VP</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>VP ➝ V NP PP</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">6</span>Une règle de réécriture dépendante du contexte étend une catégorie unique en une suite ordonnée de catégories (ou en une seule catégorie), en spécifiant le contexte dans lequel l’opération peut ou doit avoir lieu.</p>
+<table class="example">
+<tr>
+<td>(5)</td>
+<td>A ➝ B C / --- D</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">7</span>(5) signifie que la catégorie A est remplacée par la suite B C quand elle est immédiatement suivie par la catégorie D et que cette substitution n’a pas lieu quand A n’est pas immédiatement suivie par D. On peut considérer que les règles d’insertion lexicale utilisées dans <em>ATS</em> sont un cas particulier de règles de réécriture dépendantes du contexte.</p>
+<table class="example">
+<tr>
+<td>(6)</td>
+<td>V ➝ <em>comparer</em> / --- NP <em>à</em> NP</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">8</span>Les grammaires syntagmatiques dépendantes du contexte ont une capacité générative plus forte que les grammaires syntagmatiques indépendantes du contexte, au sens où les premières peuvent générer les descriptions structurales d’expressions que ne peuvent pas décrire les secondes. Elles souffrent cependant de plusieurs limitations.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">2</span> Cette affirmation doit être précisée et nuancée, voir note 3 dans Repères.</li>
+<li><span class="num">3</span> Ces morphèmes sont les exposants de deux dimensions grammaticales à la fois. C’est le cas de ‑<em>ont</em> e <a href="#ftn3">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">9</span>L’un des apports fondamentaux de <em>Syntactic Structures</em> est d’avoir établi l’insuffisance des grammaires syntagmatiques pour la description des langues naturelles, en s’appuyant sur une notion de structure en constituants rigoureuse et axiomatisée et en la confrontant avec des phénomènes empiriques indiscutables.<a class="footnotecall" id="bodyftn2" href="#ftn2">2</a> Il en ressort que les règles syntagmatiques rencontrent plusieurs difficultés qu’elles ne sont pas à même de surmonter : l’existence de constituants discontinus, l’existence de morphèmes « portemanteau »,<a class="footnotecall" id="bodyftn3" href="#ftn3">3</a> les phénomènes d’ambiguïté non structurale, l’impossibilité d’accorder un statut différent aux constructions basiques – les phrases actives – et aux autres – les passives, par exemple. La conclusion de Chomsky est que les règles syntagmatiques sont nécessaires et pleinement adéquates pour générer un sous-ensemble de phrases basiques, illustrant un nombre limité de types propositionnels – phrases indicatives, déclaratives, affirmatives –, et que les autres phrases, plus complexes, sont produites par des opérations d’un type différent, les transformations, s’appliquant de façon récursive aux structures produites par les règles syntagmatiques. La raison pour laquelle les transformations sont formellement plus complexes que les règles syntagmatiques est que ce ne sont pas, comme ces dernières, des règles de construction de la structure, introduisant progressivement les divers éléments d’une phrase, mais qu’elles sont assimilables à des opérateurs intervenant sur des structures déjà construites et les modifiant de façon complexe.</p>
+</div>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">4</span> Les transformations singulaires sont celles qui s’appliquent à des structures propositionnelles déj <a href="#ftn4">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">10</span><em>Aspects of the Theory of Syntax</em> introduit un changement majeur dans le traitement de la propriété récursive des langues naturelles. Dans <em>The Logical Structure of Linguistic Theory</em> et dans <em>Syntactic Structures</em>, les règles syntagmatiques associaient des indicateurs syntagmatiques aux phrases simples, mais la tâche de combiner deux structures propositionnelles simples en une structure propositionnelle complexe, afin de créer des structures subordonnées ou coordonnées, revenait à des transformations d’un type particulier, les <em>transformations généralisées</em>. Une transformation généralisée prend un indicateur syntagmatique K’ et l’insère dans une position vide désignée Ø dans un indicateur syntagmatique K, formant un nouvel indicateur syntagmatique K*. C’est donc une opération de substitution qui cible K et substitue K’ à Ø dans K. Dans <em>ATS</em>, les transformations généralisées sont abandonnées et la propriété de récursivité est localisée dans les règles syntagmatiques elles-mêmes. Le symbole S, qui, à l’époque, désignait les domaines propositionnels, apparaît naturellement à la gauche de la flèche de la première règle de réécriture, définissant l’axiome du système. Mais il peut aussi désormais figurer à la droite d’une règle, autorisant la récursivité. Ce qui est vrai de S l’est aussi d’autres catégories, NP par exemple. Une fois l’arbre construit, les règles d’insertion lexicale introduisent des items lexicaux dans les symboles préterminaux appropriés. Un niveau de représentation est défini, la structure D, qui correspond à l’output de la composante syntagmatique et des règles d’insertion lexicale et à l’input des transformations. Aux yeux de Chomsky, ce système est plus simple parce qu’il élimine toute la machinerie des transformations généralisées. Il observe aussi que certaines questions théoriques restées sans réponse ne se posent plus si cette hypothèse est adoptée. C’est le cas, par exemple, de l’ordre mutuel des transformations singulaires et des transformations généralisées (voir <em>ATS</em>, p. 182).<a class="footnotecall" id="bodyftn4" href="#ftn4">4</a> L’exigence de cyclicité – l’idée que les transformations doivent opérer de bas en haut, de façon monotone, du domaine le plus enchâssé au domaine correspondant à la proposition matrice – est ce qui explique désormais l’absence de certaines dérivations dans les langues.</p>
+</div>
+<p class="texte"><span class="paranumber">11</span>L’article « Remarks on nominalization » introduit deux innovations essentielles, la théorie X-barre et l’hypothèse lexicaliste, qui l’une et l’autre intéressent directement la caractérisation des règles syntagmatiques et leur fonction dans le dispositif. La première innovation concerne la fonction et l’extension des règles syntagmatiques. Il s’agit de déterminer l’origine dérivationnelle de nominalisations comme <em>the enemy’s destruction of the city</em>. On peut les dériver de propositions par une extension de l’appareillage transformationnel, sans modifier le composant syntagmatique – la nominalisation considérée serait alors dérivée de la phrase <em>the enemy destroyed the city</em>. On peut aussi étendre les règles syntagmatiques de façon à accommoder directement les nominaux dérivés, simplifiant de ce fait le composant transformationnel. La seconde option, qui représente la position <em>lexicaliste</em>, est celle que défend Chomsky. L’argument contre la dérivation transformationnelle des nominalisations exploite les idiosyncrasies manifestées par ces dernières. Il n’est pas toujours facile de déterminer quelle serait la source propositionnelle de certaines nominalisations et inversement d’expliquer l’absence d’autres nominalisations. Pourquoi, en face des propositions (7a) et (7b), a-t-on (7d), mais pas (7c), c’est-à-dire pourquoi (7a) ne peut-elle être la source d’une nominalisation ?</p>
+<table class="example">
+<tr>
+<td>(7)</td>
+<td>a. </td>
+<td>John grows tomatoes.</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>« John fait pousser des tomates. »</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>Tomatoes grow.</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>« Des tomates poussent. »</td>
+</tr>
+<tr>
+<td> </td>
+<td>c. </td>
+<td>*John’s growth of tomatoes</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>John <em>‘s</em> pousse de tomates</td>
+</tr>
+<tr>
+<td> </td>
+<td>d. </td>
+<td>the tomatoes’ growth</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>les tomates <em>‘s</em> pousse</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>« la pousse des tomates »</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">5</span> L’analyse de Chomsky revenait à attribuer l’absence de propriétés verbales manifestée par certaines <a href="#ftn5">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">12</span>Comme l’observe Marantz (1997), l’interprétation se faisant à l’époque au niveau de la structure D, il était essentiel qu’une équivalence sémantique stricte s’observe entre les propositions et les nominalisations correspondantes. L’absence d’une telle correspondance disqualifiait le traitement transformationnel.<a class="footnotecall" id="bodyftn5" href="#ftn5">5</a> Mais, pour être mené à bien, le traitement lexicaliste requiert que l’on précise les propriétés générales des règles syntagmatiques. C’est l’objet de la théorie X-barre.</p>
+</div>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">6</span> Je reprends ici les symboles catégoriels utilisés dans les textes originaux, voir la Liste des abré <a href="#ftn6">(...)</a></li>
+<li><span class="num">7</span> À l’époque les catégories fonctionnelles n’avaient pas encore été placées sous la compétence de la <a href="#ftn7">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">13</span>Cette théorie est née de l’observation que les règles syntagmatiques classiques, insuffisamment contraintes, échouent à représenter certaines régularités fondamentales de la constituance des langues naturelles, en particulier le fait que les constituants ont une structure endocentrique, c’est-à-dire s’organisent autour d’un élément pivot, la tête, qui détermine l’appartenance catégorielle du constituant tout entier (un constituant identifiable comme la projection maximale de la catégorie N est un NP ; inversement, un NP inclut nécessairement une catégorie N comme composant). Un autre défaut des règles syntagmatiques est que, dans l’usage qui en a été fait, elles supposent l’existence d’un seul niveau de structure au-dessus du nœud terminal (en général, X apparaît à la droite de la flèche dans la règle qui développe XP). Or certaines données suggèrent que les domaines XP incluent deux niveaux de structure. La théorie X-barre pose que toutes les catégories majeures complexes (c’est-à-dire les catégories ne dominant pas immédiatement un item lexical, telles que NP, VP, AP, PP) ont la même structure interne, au sens où elles correspondent à la projection de l’item lexical qui est définissable comme leur tête (N, V, Adj ou P). X, la catégorie tête, forme, en se combinant avec son complément, une projection X’ ; X’ forme à son tour avec son spécifieur une projection X”, projection maximale de X, notée aussi XP.<a class="footnotecall" id="bodyftn6" href="#ftn6">6</a> Les catégories têtes elles-mêmes ne se distinguent que par leurs traits, qui servent de base à la caractérisation de leurs différences. La combinaison des deux traits +/– N, +/– V génère quatre catégories : N = [+ N, – V], V = [– N, + V], P = [– N, – V], Adj = [+ N, + V].<a class="footnotecall" id="bodyftn7" href="#ftn7">7</a> Les hypothèses centrales de la théorie X-barre peuvent donc être résumées comme suit :</p>
+</div>
+<table class="example">
+<tr>
+<td>(8)</td>
+<td>a. </td>
+<td>Tout syntagme a une structure endocentrique, c’est-à-dire qu’il a une tête X se projetant en des syntagmes plus étendus, X’, X”.</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>La projection d’une tête est gouvernée par le schéma général suivant :</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>(i) X’ ➝ X (Y”)</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>(ii) X” ➝ (Z”) X’</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>où X”, Y” et Z” désignent les projections de rang 2 de X, Y et Z, projections maximales habituellement notées XP, YP, ZP.</td>
+</tr>
+<tr>
+<td> </td>
+<td>c. </td>
+<td>Les têtes ne sont pas des éléments atomiques ; ce sont des complexes de traits.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">14</span>On peut aussi réécrire (8bi) et (8bii) sous la forme (9a) et (9b) :</p>
+<table class="example">
+<tr>
+<td>(9)</td>
+<td>a. </td>
+<td>X’ ➝ X (Complément)</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>X” ➝ (Spécifieur) X’</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">15</span>La projection du Complément est contrôlée lexicalement au sens où elle dépend entièrement du statut lexical transitif ou intransitif de la catégorie lexicale X. Les parenthèses entourant Y” en (8bi) et Complément en (9a) indiquent ce statut. Le Spécifieur peut aussi ne pas être projeté, comme le marquent les parenthèses en (8bii) et (9b). Seule la tête X est obligatoirement présente.</p>
+<p class="texte"><span class="paranumber">16</span>La mise en place du modèle des Principes et Paramètres à la fin des années soixante-dix marque un nouveau changement dans le façon de dériver la structure en constituants. Les notions de <em>règle de grammaire</em>, de <em>construction grammaticale</em> disparaissent presque complètement. Une seule opération transformationnelle très peu spécifiée subsiste, Déplacer α (<em>Move α</em>), qui s’applique chaque fois qu’elle le peut, à moins qu’un principe général, intégré à l’un des modules de la grammaire, ne l’empêche. S’il est possible de retenir une formulation aussi simple et minimale, c’est que ce sont désormais des conditions très générales sur l’application des opérations transformationnelles et sur les représentations qu’elles produisent qui déterminent leur comportement, sans qu’il soit nécessaire de préciser, dans une description structurale associée à chaque règle, le contexte syntaxique spécifique dans lequel elle peut ou doit opérer. Un mouvement parallèle affecte les règles syntagmatiques, abandonnées elles aussi. Chomsky (1981) et Stowell (1981) observent que ces règles sont redondantes, ne faisant que récapituler une information qui doit, de toute façon, figurer dans le Lexique. La grammaire du français incluait par exemple la règle syntagmatique (10), nécessaire pour construire la structure d’un VP ayant pour tête un verbe bitransitif comme <em>comparer</em>, alors que parallèlement, l’entrée lexicale associée à <em>comparer</em> contenait un trait de sous-catégorisation stricte de forme (11) :</p>
+<table class="example">
+<tr>
+<td>(10)</td>
+<td>VP ➝ V NP <em>à</em> NP</td>
+</tr>
+</table>
+<table class="example">
+<tr>
+<td>(11)</td>
+<td><em>comparer</em>, [+ --- NP <em>à</em> NP]</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">17</span>Il est clair que si un mécanisme peut être éliminé, ce sont les règles syntagmatiques. C’est ce qui est fait dans le modèle des Principes et Paramètres. Il n’est pas possible en effet de faire l’économie de l’information contenue dans les entrées lexicales, puisque cette information fonctionne comme un principe de définition de chaque item lexical particulier. On peut dire que l’hypothèse de règles de construction de la structure indépendantes du Lexique se trouve réfutée par la redondance qui vient d’être signalée.</p>
+<p class="texte"><span class="paranumber">18</span>Une dernière innovation est l’extension dans <em>Barriers</em> du schéma X-barre aux catégories et aux projections fonctionnelles. Pour l’essentiel, (8)/(9) a été maintenu dans le dispositif jusqu’à l’avènement du minimalisme.</p>
+<p class="texte"><span class="paranumber">19</span>Deux résultats fondamentaux de la recherche en syntaxe formelle dans les années quatre-vingt doivent encore être mentionnés. Le premier, dû à Kayne (1984), est que l’organisation syntaxique des langues naturelles met exclusivement en jeu des branchements binaires.</p>
+<table class="example">
+<tr>
+<td>(12)</td>
+<td>Les branchements sont au plus binaires. Les structures multi-branchantes n’existent pas.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">20</span>Le second, dû à Reinhart (1983), est que les dépendances pouvant s’établir entre positions dans une arborescence sont sensibles à une relation structurale particulière, la c-commande. Cette relation est définie comme suit :</p>
+<table class="example">
+<tr>
+<td>(13)</td>
+<td><strong>c-commande</strong></td>
+</tr>
+<tr>
+<td> </td>
+<td>Un nœud α c-commande un nœud β si, et seulement si, β est le nœud sœur de α ou est contenu dans γ, nœud sœur de α.</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">8</span> Les relations de dépendance lexicale (<em>lexical dependencies</em>) sont celles qui se vérifient entre un a <a href="#ftn8">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">21</span>On peut montrer que cette relation intervient dans la définition de la plupart des dépendances définissables entre deux positions : les dépendances lexicales, les dépendances de mouvement, les dépendances d’accord, les dépendances référentielles.<a class="footnotecall" id="bodyftn8" href="#ftn8">8</a> On se limitera ici à quelques exemples. Le déterminant <em>de</em> en français n’est légitime que s’il est c-commandé par un mot ou une expression négative. Quand cette condition n’est pas remplie, la phrase résultante est agrammaticale ; <em>personne</em> ne c-commande pas <em>de </em>(<em>gorgonzola</em>) en (14c).</p>
+</div>
+<table class="example">
+<tr>
+<td>(14)</td>
+<td>a. </td>
+<td>Jean n’a pas trouvé de gorgonzola.</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>Personne n’a trouvé de gorgonzola.</td>
+</tr>
+<tr>
+<td> </td>
+<td>c. </td>
+<td>*La fille que personne n’a remarquée a trouvé de gorgonzola.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">22</span>La même chose est vraie pour les items à polarité négative : l’item doit être c-commandé par un élément négatif, il ne suffit pas qu’il figure dans une phrase contenant un tel élément. Cette condition n’est pas satisfaite par <em>jamais</em> en (15b).</p>
+<table class="example">
+<tr>
+<td>(15)</td>
+<td>a. </td>
+<td>Pierre ne pensait pas qu’il refuserait jamais une offre pareille.</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>*La fille que Paul n’a pas remarquée pense que Jean refusera jamais une offre pareille.</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">9</span> La coréférence est soumise à une contrainte moins forte.</li>
+</ul>
+<p class="texte"><span class="paranumber">23</span>De même, un pronom personnel de 3<sup>e</sup> personne peut entrer en relation avec une expression quantifiée et être interprété, non comme coréférent à cette expression, mais comme une variable liée dont le parcours notionnel est spécifié par la restriction associée au quantifieur. Or de façon intéressante, l’interprétation variable liée n’est disponible que si le pronom est c-commandé par l’expression quantifiée.<a class="footnotecall" id="bodyftn9" href="#ftn9">9</a></p>
+</div>
+<table class="example">
+<tr>
+<td>(16)</td>
+<td>a. </td>
+<td>Chaque étudiant a adoré la fête qui a été organisée pour lui.</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>La fête organisée pour chaque étudiant l’a rendu heureux.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">24</span>L’interprétation variable liée du pronom est disponible en (16a), pas en (16b).</p>
+<p class="texte"><span class="paranumber">25</span>Ces propriétés, connues depuis longtemps, permettent de se faire une idée précise des conditions que doit satisfaire une théorie minimaliste de la structure en constituants et des configurations qu’elle doit être en état de générer (question 1).</p>
+<p class="texte"><span class="paranumber">26</span>Curieusement, une fois abandonnées les règles syntagmatiques, Chomsky n’a pas précisé quels étaient les mécanismes qui, désormais, mettaient en place la structure en constituants. La seule précision donnée sur ce point dans <em>LGB</em> est que la structure syntaxique doit être conçue comme la projection, suivant le schéma X-barre, des propriétés de sélection lexicale des items, hypothèse connue sous le nom de Principe de projection. Mais, comme l’observent Freidin et Vergnaud (2001, p. 644), les principes de la théorie X-barre ne peuvent remplir ce rôle. Ce ne sont pas des <em>opérations</em> de construction de la structure, ni des <em>instructions</em> pour la construire, mais des <em>conditions</em> sur la structure. Quelle est donc la source des objets syntaxiques dont la théorie X-barre est supposée régler la bonne formation ? Cette lacune est comblée par l’introduction dans le Programme Minimaliste de l’opération <em>Merge</em>. Freidin et Vergnaud soulignent que cette opération de construction de la structure est transformationnelle en nature et n’a pas les propriétés d’une règle syntagmatique. Les règles syntagmatiques sont donc bien éliminées du dispositif.</p>
+<h1 class="texte"><a href="#tocfrom1n2" id="tocto1n2">2. <em>Bare phrase structure /</em><em>Merge</em></a></h1>
+<p class="texte"><span class="paranumber">27</span>Il est facile de voir dans quelle direction va porter l’effort minimaliste. Il va s’agir, dans un premier temps, de soumettre la théorie X-barre à une critique minimaliste, en débusquant les conventions et les stipulations qu’elle incorpore et en ne retenant de cette théorie que les caractéristiques qui reflètent des propriétés « réelles » de la structure en constituants. Nous savons que c-commande, endocentricité, binarité font nécessairement partie de la solution. Dans un second temps, on va s’attacher à montrer que, dans un modèle qui ne s’autorise qu’une structure syntagmatique nue, l’opération <em>Merge</em>, une fois qu’on la définit de façon appropriée, parvient à capturer ce qu’il y a d’utile dans la théorie X-barre classique, tout en satisfaisant aux exigences minimalistes.</p>
+<p class="texte"><span class="paranumber">28</span>Il faut rappeler que dans ce programme, la question de l’origine de la structure syntagmatique se pose dans des termes particuliers. Le point de départ de la computation n’est pas en effet une structure catégorielle hiérarchiquement organisée dans laquelle seraient insérés les items lexicaux, la structure D des modèles précédents, mais une collection d’items lexicaux, la numération. Or la Condition d’inclusion impose que la construction de la structure syntagmatique ne fasse pas intervenir d’autres entités que les traits associés aux items lexicaux présents dans la numération. Aucune structure ne préexiste à la numération. Aucune non plus n’existe indépendamment des items lexicaux qui la projettent. C’est en ce sens que Chomsky parle de <em>bare phrase structure</em> (« structure syntagmatique nue », c’est-à-dire structure syntagmatique minimale, réduite à l’essentiel…). Les structures syntaxiques, caractérisées précédemment comme des structures X-barre, sont désormais réanalysées en termes de <em>bare phrase structure</em>. Répondre à la question (1), c’est donc montrer qu’une structure syntagmatique nue suffit à représenter les propriétés réelles de la structure en constituants et peut donc se substituer avantageusement à la théorie X-barre classique ; répondre à la question (2), c’est indiquer comment ces objets syntagmatiques sont créés. Dans le minimalisme, la règle de construction est une opération ensembliste très simple, en fait la plus simple imaginable, <em>Merge</em> (voir II.4.1). La construction d’une théorie de la structure syntagmatique nue ne sera donc couronnée de succès que si l’on peut établir que l’opération binaire <em>Merge</em> qui la produit permet de représenter les propriétés essentielles des structures syntaxiques.</p>
+<h2 class="texte"><a href="#tocfrom2n1" id="tocto2n1">2.1. Propriétés de la structure syntagmatique</a></h2>
+<p class="texte"><span class="paranumber">29</span>Deux cas de figure se présentent quand on fait l’inventaire des informations mises à disposition par la théorie X-barre classique. Certaines de ces informations reflètent des caractéristiques « réelles » de la structure syntagmatique, que toute théorie adéquate doit capturer. D’autres propriétés de la théorie X-barre ne reflètent pas des caractéristiques « réelles » de la structure syntagmatique des langues naturelles et peuvent être ignorées. Elle autorise par exemple les nœuds non branchants. Cela tient à ce qu’un mot ne peut pas entrer dans une dérivation sans projeter deux niveaux de structure supplémentaires. <em>Jean</em>, dans l’énoncé <em>Jean aime le jazz</em>, est dominé par la catégorie N, qui, puisque les niveaux barre sont des caractéristiques intrinsèques du schéma X-barre, est elle-même dominée par une projection N’ et par une projection NP. Ni N’ ni NP ne branchent dans la représentation correspondante, puisque la tête est un nom propre, qui, par définition, ne sélectionne aucun complément et n’est associé à aucun spécifieur. Le recours à des nœuds non branchants dans les représentations syntagmatiques, qui n’est imposé ni par l’évidence empirique ni par la nécessité conceptuelle, est suspect d’un point de vue minimaliste, tout comme l’utilisation des niveaux barre eux-mêmes.</p>
+<p class="texte"><span class="paranumber">30</span>La théorie de la <em>bare phrase structure </em>permet de faire l’économie des uns et des autres. Elle ouvre la voie à une détermination relationnelle des niveaux syntagmatiques. Dans <em>C&amp;T</em>, Chomsky écrit :</p>
+<blockquote>
+<p class="citation">Étant donné la Condition d’inclusion, les projections minimales et maximales ne sont pas identifiées par un marquage particulier, elles doivent donc être déterminées à partir de la structure dans laquelle elles apparaissent ; je suis Muysken (1982) en interprétant [ces notions] comme des propriétés relationnelles des catégories, non des propriétés inhérentes. […] Une catégorie qui ne se projette pas plus haut est une projection maximale X<sup>max</sup> et une [catégorie] qui n’est pas une projection du tout est une projection minimale X<sup>min</sup> ; toute autre [catégorie] est un X’, invisible à l’interface et pour la computation. (<em>C&amp;T</em>, p. 242)</p>
+</blockquote>
+<p class="texte"><span class="paranumber">31</span>En bref, dans une approche minimaliste qui adopte la Condition d’inclusion, les niveaux barre eux-mêmes sont suspects. Le statut projectionnel d’un objet syntaxique peut être déterminé, non pas sur la base du nombre de barres qui lui est associé, mais de façon relationnelle : une projection maximale est un objet syntaxique qui ne se projette pas, c’est-à-dire une catégorie qui n’est pas immédiatement dominée par une projection d’elle-même ; une projection minimale ne domine rien, c’est un item lexical sélectionné dans la numération ; une projection intermédiaire est un objet syntaxique qui n’est ni minimal ni maximal.</p>
+<p class="texte"><span class="paranumber">32</span>Un avantage immédiat de l’approche relationnelle est qu’elle permet de faire l’économie des nœuds non branchants et des projections vides. Elle prend également acte du fait que dans la théorie de la structure syntagmatique nue, la distinction entre nœuds préterminaux et mots terminaux n’a plus cours. Dans les modèles des années cinquante et soixante, les items lexicaux étaient insérés dans des catégories (têtes) par des règles spécialisées, les règles d’insertion lexicale. Il était donc justifié de parler de symboles terminaux, les mots, et de nœuds préterminaux, les catégories d’accueil. Dans la théorie présentée ici, il n’y a plus de distinction entre les deux : le mécanisme computationnel manipule exclusivement des items lexicaux, le mot et la catégorie correspondante définissent conjointement le niveau terminal.</p>
+<p class="texte"><span class="paranumber">33</span>La représentation « nue » de l’expression <em>aime le jazz</em> dans l’énoncé <em>Jean aime le jazz </em>serait à peu près (17). (17) est une représentation dans laquelle les crochets ont pour étiquettes des items lexicaux. Il est évidemment possible de traduire (17) en une représentation arborescente dont les nœuds auraient également pour labels des items lexicaux – ce que fait Chomsky dans <em>BPS</em>. Mais il faut se souvenir que les objets manipulés par la structure syntagmatique nue sont des ensembles, non des structures de type arborescent.</p>
+<table class="example">
+<tr>
+<td>(17)</td>
+<td>[<sub>aime</sub> [aime] [<sub>le</sub> [le] [jazz]]]</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">34</span>En (17), l’expression <em>le jazz</em>, qui est combinée avec un item lexical qui se projette, ne peut elle-même se projeter ; c’est une projection maximale au sens qui vient d’être défini. La même conclusion vaut pour <em>Marie </em>dans l’expression <em>rencontre Marie</em>.</p>
+<table class="example">
+<tr>
+<td>(18)</td>
+<td>[<sub>rencontre</sub> [rencontre] [<sub>Marie</sub> Marie]]</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">35</span><em>Marie</em>, qui se combine par <em>merger</em> avec un objet qui se projette, ne se projette pas. Elle est donc identifiable comme une projection maximale. Elle est aussi identifiable comme une projection minimale puisque c’est un item lexical. <em>Marie</em> a donc ici un double statut. On peut vérifier qu’en (17) et en (18), la distinction inutile entre nœuds préterminaux et items lexicaux est éliminée, qu’aucun nœud n’est non branchant, et que le statut projectionnel de chaque objet syntaxique est adéquatement déterminé par sa relation avec les autres objets syntaxiques.</p>
+<p class="texte"><span class="paranumber">36</span>Dans cette approche, les notions de <em>complément</em> et de <em>spécifieur</em>, utiles descriptivement, sont dépourvues de tout statut théorique. Elles désignent respectivement le premier élément combiné avec une tête (ce qui en fait la sœur d’une projection minimale non maximale) et celui qui l’est après (ce qui en fait la sœur d’une projection intermédiaire). Puisque ni le complément ni le spécifieur ne se projettent plus haut, ils définissent nécessairement des projections maximales, une propriété qui était stipulée dans la théorie X-barre. Ce point précisé, il ne devrait pas exister de restrictions supplémentaires sur la <em>bare phrase structure</em>. En particulier, aucune stipulation ne devrait limiter le nombre de spécifieurs associés à une tête, contrairement à ce que pose la théorie X-barre. De fait, Chomsky dans <em>C&amp;T</em> analyse le mouvement de l’argument objet, nécessaire pour valuer les traits φ de v et éliminer le trait de Cas de l’objet, comme un déplacement dans le spécifieur externe de vP, le spécifieur interne étant occupé par l’argument externe du prédicat verbal.</p>
+<p class="texte"><span class="paranumber">37</span>Chomsky précise enfin que les catégories X’ sont invisibles bien que présentes. Si l’on raisonne en termes dérivationnels et si la structure est construite par extensions successives de la racine de l’arbre, un X’ n’est rien d’autre qu’une catégorie qui était une projection maximale à une étape antérieure de la dérivation, mais qui a perdu ce statut à la suite du <em>merger</em> d’un syntagme à ses côtés. Lorsqu’on combine l’argument externe avec le vP dominant v et son objet VP, le vP initial cesse d’être une projection maximale, c’est le vP dominant à la fois l’argument externe et le vP initial qui hérite de ce statut. Il est donc possible, dans une approche intégrant la tête v, de distinguer structuralement les prédicats inaccusatifs (du type de <em>arriver</em>) et les prédicats inergatifs (du type de <em>marcher</em>), sans recourir à des nœuds non branchants. L’argument unique des premiers est inséré dans les structures comme une sœur de V, alors que l’argument unique des seconds est introduit comme une sœur du verbe léger v.</p>
+<h2 class="texte"><a href="#tocfrom2n2" id="tocto2n2">2.2. Caractérisation de <em>Merge</em></a></h2>
+<p class="texte"><span class="paranumber">38</span>Dans le Programme Minimaliste, c’est à la seule opération <em>Merge</em> qu’est dévolue la tâche de construire des objets syntaxiques complexes à partir des ressources lexicales contenues dans la numération. La nécessité de caractériser <em>Merge </em>de la façon la plus précise possible est d’autant plus pressante que plusieurs travaux récents, Hauser, Chomsky et Fitch (2002) en particulier, proposent que le <em>Merge</em> récursif (ou tout mécanisme équivalent) est une propriété unique spécifique au langage humain, tombant dans le domaine du facteur 1, qui le distingue des systèmes de communication des autres espèces et qui est sous-jacente à des propriétés comme l’infinité discrète et, nous le verrons, le mouvement.</p>
+<p class="texte"><span class="paranumber">39</span><em> Merge</em> est l’opération binaire, transformationnelle en nature, qui sélectionne deux objets syntaxiques α et ß et les combine. Selon Chomsky (<em>C&amp;T</em>, p. 243), l’objet le plus simple qui peut être construit à partir de α et ß est l’ensemble {α, ß}. On peut donc poser que l’objet complexe K résultant de <em>Merge</em> contiendra <em>au moins</em> cet ensemble :</p>
+<table class="example">
+<tr>
+<td>(19)</td>
+<td>Merge (α, ß) = K = {α, ß}</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">40</span>Dans le cas le plus simple, α et ß sont des items lexicaux (c’est-à-dire des ensembles de traits). La combinaison par <em>Merge </em>de <em>Jean</em> et de <em>rit</em> produit l’ensemble {Jean, rit}.</p>
+<p class="texte"><span class="paranumber">41</span>Après avoir défini <em>Merge</em> comme une opération binaire combinant deux objets, Chomsky poursuit :</p>
+<blockquote>
+<p class="citation">Est-ce que c’est suffisant ? Les conditions de sortie suggèrent une conclusion différente ; les éléments verbaux et les éléments nominaux par exemple reçoivent des interprétations différentes en LF et ont un comportement différent dans le composant phonologique. K doit donc au moins (et on peut supposer au plus) avoir la forme {γ, {α, ß}}, où γ identifie le type auquel appartient K, indiquant ses propriétés pertinentes. Appelons γ le label (<em>label</em>) de K. (<em>C&amp;T</em>, p. 243)</p>
+</blockquote>
+<p class="texte"><span class="paranumber">42</span>Bien que <em>Merge</em>, dans la définition (19), se présente comme une opération pleinement symétrique, il est clair que c’est un élément unique qui détermine les propriétés de l’objet syntaxique résultant de la combinaison. On exprime cette observation en posant que l’output de <em>Merge</em> requiert une étiquette ou un label. En l’absence de label, il serait difficile d’opérer sur cet output ou même d’y référer. Le label donne aussi une indication précieuse sur la structure hiérarchique, quand deux objets syntaxiques, éventuellement complexes, sont combinés par <em>Merge</em>. Si deux objets sont combinés, c’est qu’il existe entre eux une relation (sinon, pourquoi les combiner ?) et cette relation présente en général toutes les caractéristiques d’une relation asymétrique. Le label code cette asymétrie de façon transparente. À (19), on doit donc substituer (20) :</p>
+<table class="example">
+<tr>
+<td>(20)</td>
+<td>Merge (α, ß) = K = {γ, {α, ß}}, où γ est le label de K.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">43</span>Cette notation code l’information que c’est γ qui détermine les propriétés de l’objet complexe {α, ß}. Comme nous le verrons dans la sous-section suivante, γ ne peut être que α ou ß.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">10</span> J’admets ici provisoirement que le label d’un objet syntaxique peut être un item lexical, voir <em>BPS </em><a href="#ftn10">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">44</span>Une autre propriété définitoire de <em>Merge</em> est la récursivité : <em>Merge</em> est une opération qui peut s’appliquer à son propre output. Il est facile de voir comment l’application récursive de <em>Merge</em> permet de construire l’objet syntagmatique complexe <em>Jean aime le jazz</em>. En opérant le <em>merger</em> de <em>aime</em> et de l’expression construite indépendamment <em>le jazz</em>, on obtient l’objet syntaxique {aime, {aime, le jazz}}, dont le label <em>aime</em> indique qu’on a affaire à un groupe verbal.<a class="footnotecall" id="bodyftn10" href="#ftn10">10</a><em>Merge</em> combine ensuite cet objet complexe et le verbe léger v, ce qui donne {v, {v, {aime, {aime, le jazz}}}}. <em>Jean</em> est enfin combiné avec l’objet complexe résultant, produisant {v, {Jean, {v, {v, {aime, {aime, le jazz}}}}}}, qui est également une projection verbale, puisque ses propriétés sont déterminées par v.</p>
+</div>
+<p class="texte"><span class="paranumber">45</span>Une autre caractéristique fondamentale de <em>Merge </em>est la binarité. Pour transposer la propriété (12) dans une approche minimaliste visant à construire une structure syntagmatique nue, il suffit de définir <em>Merge</em> comme une opération binaire. La binarité de <em>Merge</em> s’impose comme une évidence quand on cherche à représenter le fait que le mode d’organisation des structures syntaxiques dans les langues naturelles semble être de nature fondamentalement binaire. Mais peut-on produire des arguments internes au dispositif minimaliste lui-même qui appuieraient cette décision ? Comme l’observe Atkinson (2007), « le seul fait qu’une langue doive contenir une procédure pour construire des objets complexes à partir d’une ressource finie, son lexique, ne nous force pas à adopter une opération binaire. D’un point de vue logique, des opérations n-aires pour tout n &gt; 1 satisferaient aussi cette exigence ». On peut observer que la construction des objets syntaxiques les plus simples, celui qui associe un verbe et son complément direct par exemple, fournit un exemple de <em>merger</em> binaire et de là conclure que toutes les instances de <em>Merge</em> sont binaires. C’est ce que proposent Hornstein, Nunes et Grohmann (2005, p. 209-210), qui font aussi appel pour justifier cette conclusion à des considérations d’économie, d’élégance, de simplicité, caractéristiques inhérentes des objets naturels.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">11</span> Le LCA, qui repose sur une conception de la structure syntagmatique qui distingue entre nœuds préte <a href="#ftn11">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">46</span>Une autre possibilité consisterait à vérifier que la binarité de <em>Merge</em> joue un rôle dans la satisfaction des conditions d’interface, c’est-à-dire dans la lisibilité des représentations correspondantes. Il paraît peu probable que la binarité de <em>Merge</em> intervienne de façon déterminante dans la lisibilité des représentations de LF. Par contre, elle joue un rôle essentiel au niveau de PF, dans l’approche de la linéarisation des structures syntaxiques initiée par Kayne (1994). L’Axiome de correspondance linéaire (<em>Linear Correspondance Axiom</em>, abrégé LCA) pose que la c-commande asymétrique entre nœuds préterminaux est appliquée sur la précédence linéaire des éléments terminaux. Si l’on raisonne dans les termes du LCA, on est en droit de conclure que les exigences de l’interface PF justifient l’hypothèse que le système computationnel recourt exclusivement au <em>Merge</em> binaire.<a class="footnotecall" id="bodyftn11" href="#ftn11">11</a></p>
+</div>
+<h2 class="texte"><a href="#tocfrom2n3" id="tocto2n3">2.3. Labels et projections</a></h2>
+<p class="texte"><span class="paranumber">47</span>Revenons à la question des labels. La représentation des objets syntaxiques comme des ensembles ou des paires non ordonnées n’est pas suffisante pour assurer l’interprétation aux interfaces. On se souvient que les éléments nominaux et verbaux sont interprétés différemment en LF et se comportent différemment dans le composant phonologique (voir le passage de <em>C&amp;T</em> cité en 2.2). Il est donc nécessaire d’assigner un label aux objets syntaxiques complexes. Deux questions partiellement corrélées se posent : (i) quelle est la nature du label ? (ii) quelle est l’origine du label ?</p>
+<p class="texte"><span class="paranumber">48</span>Malgré le rôle important que jouent les labels dans la théorisation syntaxique récente, il faut admettre que la réponse à la question (i) reste floue. On ne sait pas si ce qui sert de label à un objet syntaxique est une catégorie syntaxique ou un sous-ensemble de traits, qui peut ne comporter que des traits catégoriels ou des traits lexicaux, ou même un item lexical (cette option n’est sérieusement considérée que dans <em>BPS</em>, voir 2.2).</p>
+<p class="texte"><span class="paranumber">49</span>Quant à l’origine des labels, elle ne peut être que dérivationnelle et computationnelle, puisque c’est l’opération <em>Merge</em> elle-même qui construit la structure et qu’il s’agit d’étiqueter les objets syntaxiques au fur et à mesure de leur construction. Mais la position de Chomsky sur cette question a évolué dans le temps. Dans <em>C&amp;T </em>et <em>MI</em>, l’assignation d’un label fait bien partie du processus de formation des objets syntaxiques et est une condition nécessaire à la participation de ces objets à la computation. Comment donc est définie l’identité de γ dans la structure {γ, {α, ß}} ? Il apparaît immédiatement que la Condition d’inclusion limite considérablement l’étendue des choix possibles et que l’hypothèse (21) s’impose d’elle-même :</p>
+<table class="example">
+<tr>
+<td>(21)</td>
+<td>Le label γ doit être construit à partir des deux constituants α et ß. (<em>C&amp;T</em>, p. 244)</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">50</span>Chomsky considère les options suivantes :</p>
+<table class="example">
+<tr>
+<td>(22)</td>
+<td>a. </td>
+<td>α ∩ ß </td>
+<td>(l’intersection de α et de ß)</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>α ∪ ß </td>
+<td>(l’union de α et de ß) </td>
+</tr>
+<tr>
+<td> </td>
+<td>c. </td>
+<td>α ou ß</td>
+<td> </td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">12</span> Poser la question en ces termes présuppose que les items lexicaux et fonctionnels qui se trouvent c <a href="#ftn12">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">51</span>Les options (22a) et (22b) sont immédiatement exclues. Dans bien des cas, l’intersection de α et de ß va correspondre à l’ensemble vide (si, par exemple, α est nominal, c’est-à-dire [+ N, – V], et ß verbal, c’est-à-dire [– N, + V]). L’union de α et de ß va également produire un ensemble contenant des traits contradictoires, situation qui se vérifie si on combine à nouveau un α nominal et un ß verbal. Reste l’option (25c), posant que le label γ de K = {α, ß} est soit α, soit ß. Si c’est α qui se projette, K = {α {α, ß}} ; si c’est ß, K = {ß {α, ß}}.<a class="footnotecall" id="bodyftn12" href="#ftn12">12</a> En bref, un seul des deux éléments associés détermine le label.</p>
+</div>
+<p class="texte"><span class="paranumber">52</span>Mais quelle est l’option correcte ? La question se pose de savoir si le label d’un objet {α, ß} peut être déterminé univoquement, par une recherche minimale, au moyen d’un algorithme simple, s’il peut être dérivé de principes généraux, sans stipulation particulière et sans anticipation garantissant le choix de l’option permettant une dérivation convergente. Dans le cas du <em>Merge</em> externe, il semble que la généralisation suivante soit correcte :</p>
+<table class="example">
+<tr>
+<td>(23)</td>
+<td>C’est le terme sélecteur qui se projette dans les structures représentant les dépendances sélectionnelles.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">53</span>(23) énonce simplement que quand un verbe transitif direct et l’argument nominal qu’il sélectionne sont combinés, la structure résultante est un VP, non un DP. Dans l’expression <em>aimer le jazz</em>, c’est le verbe <em>aimer</em> qui requiert la présence d’un complément d’objet direct et fonctionne comme sélecteur. C’est donc lui qui, dans les termes de (23), détermine le label de la projection correspondante, soit VP. Il est facile de déterminer l’origine de cette asymétrie. Elle tient à ce que, lorsque le <em>Merge</em> externe s’applique à α, ß, c’est généralement pour satisfaire les exigences sélectionnelles de α ou de ß, mais pas des deux. Dans les expressions <em>aimer le jazz</em> et <em>rencontrer Marie</em>, <em>aimer</em> et <em>rencontrer</em> comportent un trait sélectionnel, requérant la présence d’un complément, alors que <em>le jazz</em> et <em>Marie</em> ne demandent à être les compléments de rien. On note que cette asymétrie n’est pas inhérente à l’opération <em>Merge</em> elle-même, elle réside dans les deux objets entrant en relation : l’un est le sélecteur, l’autre ne l’est pas. On peut donc déterminer de façon optimale, purement locale, sans anticipation, le label de l’objet complexe résultat : ce label est celui du sélecteur. (23) évite en particulier d’opérer le mauvais choix pour l’étiquetage de l’objet <em>aimer le jazz</em> et de poser par exemple que c’est le déterminant <em>le</em> de l’argument direct qui se projette au-dessus de l’objet complexe plutôt que le verbe <em>aimer</em>.</p>
+<p class="texte"><span class="paranumber">54</span>Si le déplacement correspond aussi à une instance particulière de <em>Merge </em>(le <em>Merge </em>interne), il faut se demander quel mécanisme détermine le label de l’objet résultant.</p>
+<table class="example">
+<tr>
+<td>(24)</td>
+<td>C’est la catégorie visée par le mouvement (<em>the target of movement</em>) qui se projette dans les structures produites par mouvement.</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">13</span> L’opération de montée est déclenchée par les exigences du T matrice, codées par le trait [EPP] et l <a href="#ftn13">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">55</span>(24) pose que dans la structure (25), où T est la catégorie visée par le déplacement du sujet enchâssé <em>Jean</em>, la catégorie résultante dominant conjointement T, le complément de T et le terme déplacé est un TP. <em>Jean</em> occupe la position spécifieur de cette projection.<a class="footnotecall" id="bodyftn13" href="#ftn13">13</a></p>
+</div>
+<table class="example">
+<tr>
+<td>(25)</td>
+<td>Jean<sub>i</sub> T semble [<del>Jean</del> aimer le jazz]</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">56</span>Dans ce cas, le label de l’objet résultant est celui de la tête qui porte les traits fonctionnant comme attracteurs (c’est-à-dire celui de la sonde, voir VI). Ce résultat était donné pour rien dans la théorie X-barre, dans laquelle le mouvement syntagmatique était conçu comme une opération de substitution de l’élément déplacé à un élément nul dans un spécifieur. Mais il n’était pas dérivé sur une base théoriquement fondée. Dans une approche fondée sur la <em>bare </em><em>phrase structure</em>, où aucune structure ne préexiste aux opérations syntaxiques, la notion de substitution n’a pas de place. Pour garantir que le label d’un objet syntaxique structuralement complexe soit visible depuis l’extérieur, il faut supposer que le système a naturellement accès, par une recherche minimale, à l’élément le plus simple dans cet objet, c’est-à-dire à la tête ou, ce qui revient au même, à son label. Chomsky dans <em>OP </em>formule l’algorithme pertinent dans les termes suivants :</p>
+<table class="example">
+<tr>
+<td>(26)</td>
+<td>Si α est combiné de façon interne (<em>internally merged</em>) avec ß, formant {α, ß}, alors le label de ß devient le label de {α, ß}.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">57</span>La situation n’est pas différente dans les structures résultant du <em>Merge</em> externe. Seule la tête de l’objet syntaxique complexe est accessible depuis l’extérieur.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">14</span> <em>Agree</em> et les notions de sonde et de cible sont définis au chapitre VI.</li>
+<li><span class="num">15</span> Adger conçoit les traits de sélection catégorielle comme des traits non interprétables qui ne peuve <a href="#ftn15">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">58</span>Il semble qu’aussi bien pour le <em>Merge</em> externe que pour le <em>Merge</em> interne, un seul choix soit possible dans chaque structure particulière. Chomsky établit un parallélisme entre le sélecteur obligatoirement impliqué dans le <em>Merge</em> externe et la sonde impliquée dans les relations sonde-cible sous-jacentes au <em>Merge</em> interne.<a class="footnotecall" id="bodyftn14" href="#ftn14">14</a> Les traits de la sonde dans le <em>Merge</em> interne jouent le même rôle que les traits du sélecteur dans le <em>Merge</em> externe. Ce parallélisme a conduit plusieurs chercheurs à modeler les relations de sous-catégorisation sur les relations sonde-cible sous-jacentes au mouvement. Selon Adger (2003, p. 91), c’est l’opération <em>Merge</em> qui, créant une relation de sœur entre deux objets syntaxiques, autorise la vérification du trait de sélection catégorielle porté par une tête sélecteur.<a class="footnotecall" id="bodyftn15" href="#ftn15">15</a> Pesetsky et Torrego (2006), Wurmbrand (2014) développent une approche réductionniste comparable. Dans cette conception, c’est uniformément la sonde qui projette le label.</p>
+</div>
+<p class="texte"><span class="paranumber">59</span>En bref, la détermination des labels constitue une dimension nécessaire de la computation minimaliste et a partie liée avec la sélection et le mouvement, conçus en termes de valuation de traits. On peut conclure avec Chomsky (dans <em>C&amp;T</em>) que <em>Merge</em> est une opération plus complexe que le simple assemblage ensembliste, puisque l’assignation d’un label est impliquée dans l’opération. On peut aussi soutenir que le processus d’étiquetage est pris en charge par un mécanisme indépendant de l’opération <em>Merge</em> elle-même, comme Chomsky le fait dans les articles postérieurs à <em>MI</em>. Le problème est repris dans le chapitre V.</p>
+<h1 class="texte"><a href="#tocfrom1n3" id="tocto1n3">3. Autres instances de <em>Merge</em></a></h1>
+<p class="texte"><span class="paranumber">60</span>Il est nécessaire à ce point d’affiner la caractérisation de <em>Merge</em> et d’introduire des distinctions supplémentaires.</p>
+<h2 class="texte"><a href="#tocfrom2n4" id="tocto2n4">3.1. <em>Merge</em> interne (mouvement)</a></h2>
+<p class="texte"><span class="paranumber">61</span>On peut a priori distinguer trois types de combinaisons en fonction des objets servant d’input à l’opération <em>Merge</em>.</p>
+<p class="texte"><span class="paranumber">62</span>(i) Les objets combinés sont directement prélevés dans la numération. C’est le cas par exemple lorsque l’expression <em>le jazz</em> est assemblée.</p>
+<p class="texte"><span class="paranumber">63</span>(ii) Les objets combinés sont eux-mêmes le résultat d’une application préalable de <em>Merge</em>. Si <em>Merge</em> ne pouvait opérer récursivement, il ne serait pas possible de dériver des objets plus complexes que des paires de mots. Un objet complexe qui doit être articulé avec un autre objet complexe – par exemple, un groupe nominal sujet (<em>l’enfant</em>) avec une structure prédicative (<em>trouvera la solution</em>) – doit avoir été assemblé au préalable, dans une dérivation auxiliaire.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">16</span> La théorie minimaliste du mouvement est présentée en VII.</li>
+</ul>
+<p class="texte"><span class="paranumber">64</span>(iii) La troisième classe est celle des objets appartenant à des structures complexes constituées antérieurement. Ce cas correspond au mouvement, qui affecte des objets déjà construits. L’intégration du mouvement au dispositif grammatical est nécessaire pour accommoder le fait qu’un objet syntaxique peut être associé à plusieurs positions dans une structure et endosser plusieurs rôles (thématique, syntaxique, informationnel). La représentation la plus naturelle de cette propriété consiste à poser qu’un constituant déjà présent dans une structure, donc déjà inséré par <em>Merge</em>, peut, au sein de cette structure, définir l’input d’une autre application de <em>Merge</em> (par exemple, <em>quel problème </em>dans <em>quel problème l’enfant résoudra </em><del>quel problème</del>)<em>.</em> À partir de <em>BEA</em>, Chomsky ne considère plus <em>Merge</em> et <em>Move</em> comme deux opérations disjointes (voir II.4.3), mais conçoit le mouvement lui-même comme un cas particulier de l’opération générale <em>Merge</em>, pièce nécessaire du <em>design</em> optimal, sans aucun coût computationnel. Le <em>Merge</em> externe (<em>external Merge</em>, EM) correspond à l’opération qui sélectionne deux objets syntaxiques et les combine en un objet syntaxique plus étendu. Dans le <em>Merge</em> interne (<em>internal Merge</em>, IM), le terme affecté (c’est-à-dire déplacé) est contenu dans un objet complexe déjà construit.<a class="footnotecall" id="bodyftn16" href="#ftn16">16</a> Mais, comme le souligne Chomsky dans <em>PoP</em>, il n’existe qu’une seule opération élémentaire <em>Merge</em>. La distinction opérée entre le <em>Merge</em> interne et le <em>Merge</em> externe entend simplement signifier que le mouvement n’est lui-même rien d’autre qu’une instance particulière de <em>Merge</em>.</p>
+</div>
+<h2 class="texte"><a href="#tocfrom2n5" id="tocto2n5">3.2. <em>Merge</em> de paire (adjonction)</a></h2>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">17</span> Dans la théorie X-barre classique, on associait à l’adjonction les propriétés suivantes (voir Horns <a href="#ftn17">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">65</span>La nécessité de distinguer entre les structures d’adjonction et les structures de complémentation ou de spécification est source de difficulté dans toutes les théories de la structure en constituants.<a class="footnotecall" id="bodyftn17" href="#ftn17">17</a> Mais cette difficulté est encore accrue dans la <em>bare phrase structure</em>, puisque les adjoints deviennent structuralement indistinguables des spécifieurs. La projection du spécifieur YP de la catégorie XP résulte du <em>merger</em> de YP avec XP (qui, de ce fait, cesse d’être une projection maximale). L’adjonction de YP à XP produit un résultat strictement analogue. Dans la structure résultante, l’objet XP auquel se fait l’adjonction perd son statut de projection maximale, étant lui-même immédiatement dominé par une projection XP. On ne peut plus d’autre part opposer les structures d’adjonction et les structures de substitution, puisque dans un système où la structure syntagmatique est mise en place progressivement de bas en haut, il n’existe pas de position préalablement définie qui pourrait être un site de substitution. Une option permettant de saisir la différence entre adjoints et arguments est de considérer que le terme adjoint et l’objet syntaxique auquel se fait l’adjonction sont deux <em>segments</em> de la même catégorie. Cette analyse, introduite dans <em>Barriers</em>, traduit en termes formels l’intuition initiale sous-jacente à la notion de <em>Chomsky-adjunction</em> (voir <em>ATS</em>), selon laquelle, dans les structures d’adjonction, un nœud est répété dans le processus de construction de la structure.</p>
+</div>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">18</span> Chomsky désigne aussi parfois sous l’étiquette de <em>pure Merge</em> (<em>Merge</em> pur) les deux cas de <em>Merge</em> exte <a href="#ftn18">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">66</span>Dans <em>MI</em>, une caractérisation différente est proposée, reposant sur l’idée que les adjoints et les arguments sont introduits dans les structures par des types différents de <em>Merge</em>. Pour désigner l’opération qui produit les structures de complémentation/spécification, Chomsky parle de <em>set-Merge </em>(<em>Merge</em> ensembliste), indiquant ainsi qu’elle produit un ensemble. Toutes les opérations de <em>merger</em> considérées jusqu’ici relèvent du <em>Merge</em> ensembliste. Lorsqu’une adjonction est en cause, Chomsky parle de <em>pair-Merge </em>(<em>Merge</em> de paire), pour signifier que le résultat de l’opération est une paire. Le <em>Merge</em> ensembliste et le <em>Merge </em>de paire admettent l’un et l’autre deux variantes, selon qu’ils sont ou non enchâssés dans un mouvement. Si on combine les deux oppositions mentionnées, on distinguera les quatre cas suivants : <em>Merge</em> ensembliste externe, <em>Merge</em> ensembliste interne, <em>Merge</em> de paire externe, <em>Merge</em> de paire interne.<a class="footnotecall" id="bodyftn18" href="#ftn18">18</a></p>
+</div>
+<p class="texte"><span class="paranumber">67</span>Le <em>Merge</em> de paire, dans ses deux versions – adjonction basique ou adjonction par mouvement –, adjoint α à ß pour former un objet complexe &lt;α, ß&gt;. L’adjonction recèle une asymétrie inhérente, puisque α est adjoint à ß et non l’inverse et qu’en général, &lt;α, ß&gt; ≠ &lt;ß, α&gt;. L’objet syntaxique résultant consiste en une paire ordonnée. C’est la catégorie ß à laquelle se fait l’adjonction qui se projette. Et cela vaut aussi bien pour le <em>Merge</em> externe – l’adjonction basique d’un adverbial au vP qu’il modifie ou d’une proposition relative au NP antécédent dans l’analyse classique de ces constructions – que pour le <em>Merge </em>interne – l’adjonction d’une expression topicalisée à un domaine propositionnel (<em>This guy, I like</em>) dans l’analyse pré-cartographique de ces structures.</p>
+<p class="texte"><span class="paranumber">68</span>Le point essentiel est ici que les structures d’adjonction, impliquant ou non un mouvement, se distinguent de celles produites par association ensembliste, non par la configuration résultante, mais par l’opération qui les dérive : <em>Merge</em> de paire, opération facultative, asymétrique de façon inhérente, vs <em>Merge</em> ensembliste, opération obligatoire et essentiellement symétrique. Quand une asymétrie est décelable dans l’output du <em>Merge </em>ensembliste, elle ne doit pas être imputée à l’opération elle-même, mais à la nature des deux objets combinés, l’un d’eux étant nécessairement sélecteur ou attracteur.</p>
+<p class="texte"><span class="paranumber">69</span>Dans <em>C&amp;T</em>,<em> MI </em>et<em> BEA</em>, Chomsky évoque la possibilité que les structures d’adjonction soient signalées par un système de labélisation différent de celui qui intervient dans les structures de complémentation. Dans <em>BEA</em>, il suggère que les deux objets associés par le <em>Merge</em> de paire participent à la définition du label de la structure résultante, sous la forme d’une paire ordonnée. Le <em>Merge</em> de paire de α et de ß produit le label &lt;α, ß&gt;. On se souvient que le <em>Merge</em> ensembliste de α, ß produit un objet dont le label est soit α, soit ß.</p>
+<p class="texte"><span class="paranumber">70</span>En conclusion, la nécessité de distinguer entre les structures d’adjonction et les structures de complémentation/spécification impose de définir un deuxième type de <em>Merge</em>, le <em>Merge</em> de paire, qui s’oppose au <em>Merge</em> ensembliste. Ce dernier continue à être caractérisé comme une opération combinatoire maximalement simple.</p>
+<h2 class="texte"><a href="#tocfrom2n6" id="tocto2n6">3.3. <em>Merge</em> parallèle (multidominance)</a></h2>
+<p class="texte"><span class="paranumber">71</span>Plusieurs chercheurs ont observé que la caractérisation relativement flexible de <em>Merge</em> proposée dans les sections précédentes laissait ouvertes d’autres possibilités qui toutes méritent un examen plus approfondi. Parmi ces options, on peut citer le mouvement inter-arborescent de Bobaljik et Brown (1997) et le mouvement latéral (<em>sideward movement</em>) de Nunes (2004), qui en est une variante. Pour exclure de tels déplacements, il serait nécessaire de poser qu’un objet déplacé, c’est-à-dire <em>remerged</em>, doit nécessairement c-commander sa position originelle, une condition qui, selon ces auteurs, représenterait une complication de la théorie.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">19</span> On réfère aussi à cette hypothèse sous l’étiquette de <em>Single Root Hypothesis</em> (Hypothèse de la racin <a href="#ftn19">(...)</a></li>
+<li><span class="num">20</span> Sur la valuation de trait, voir VI. Le problème est ici que la condition de biunivocité entre sonde <a href="#ftn20">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">72</span>Une seconde option qui n’est pas exclue par la caractérisation de <em>Merge </em>développée jusqu’ici est la multidominance. La multidominance est la possibilité pour un nœud d’avoir plus d’une <em>mère</em>, situation qui va clairement à l’encontre de la conception classique de la structure syntagmatique et de l’hypothèse généralement admise qu’un constituant syntaxique ne peut être dominé que par un nœud et un seul.<a class="footnotecall" id="bodyftn19" href="#ftn19">19</a> Il va de soi que l’intégration au dispositif de cette nouvelle instance de <em>Merge</em> soulève plusieurs questions : quelles sont les contraintes sur le <em>Merge</em> parallèle ? comment les structures ainsi dérivées sont-elles linéarisées ? comment sont-elles sémantiquement interprétées ? comment fonctionnent les processus de valuation des traits ininterprétables mettant en jeu l’élément partagé ?<a class="footnotecall" id="bodyftn20" href="#ftn20">20</a> D’autre part, il ne suffit pas de montrer que la définition du <em>Merge</em> externe et celle du <em>Merge</em> interne autorisent la définition d’un troisième type de <em>Merge</em>. Il faut aussi établir que cette option est effectivement utilisée par les langues naturelles et qu’elle ouvre la voie à une analyse convaincante d’un grand nombre de constructions. Et de fait, dans les années récentes, des analyses en termes de multidominance ont été proposées pour un nombre croissant de phénomènes. On peut en particulier citer les constructions suivantes, qui toutes contiennent du matériel commun à deux sous-parties d’une phrase complexe. Le matériel partagé est noté en italique.</p>
+</div>
+<p class="paragraphesansretrait"><em>Right Node Raising</em></p>
+<table class="example">
+<tr>
+<td>(27)</td>
+<td>Max aime et Léa déteste <em>les opéras de Wagner.</em></td>
+</tr>
+</table>
+<p class="paragraphesansretrait"><em>Gapping</em></p>
+<table class="example">
+<tr>
+<td>(28)</td>
+<td>Julie <em>a commandé</em> un œuf au plat et Lucie une salade de rougets.</td>
+</tr>
+</table>
+<p class="paragraphesansretrait">Mouvement <em>across the board</em></p>
+<table class="example">
+<tr>
+<td>(29)</td>
+<td> Je me demande <em>quel document</em> Julie a perdu et Lucie a retrouvé.</td>
+</tr>
+</table>
+<p class="paragraphesansretrait">Lacunes parasites </p>
+<table class="example">
+<tr>
+<td>(30)</td>
+<td><em>Quels articles</em> as-tu rangés sans avoir lus ?</td>
+</tr>
+</table>
+<p class="paragraphesansretrait">Relatives libres</p>
+<table class="example">
+<tr>
+<td>(31)</td>
+<td> Gomez pourchasse <em>quiconque</em> s’approche de Paloma.</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">21</span> On peut aussi parler à propos de la structure résultante de <em>Remerge</em> externe, comme le fait de Vries <a href="#ftn21">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">73</span>Les chercheurs qui admettent cette possibilité font valoir qu’il est plus coûteux de l’exclure que de l’admettre. Citko (2011) observe que l’existence de la multidominance est une conséquence naturelle des principes minimalistes gouvernant la construction de la structure syntagmatique et le mouvement. En fait, ce qu’elle appelle le <em>Merge</em> parallèle, l’opération qui donne lieu à des structures instanciant des relations de multidominance, combine les propriétés du <em>Merge </em>externe et celles du <em>Merge</em> interne. Il est comme le <em>Merge</em> externe en ce qu’il prend comme input deux objets syntaxiques distincts. Il est comme le <em>Merge</em> interne en ce qu’il combine l’un des objets avec une sous-partie de l’autre. Le processus a lieu en deux étapes : α se combine avec γ, puis β se combine avec γ et γ devient le terme partagé par α et β. On peut penser à l’élément partagé comme occupant simultanément deux positions différentes dans la configuration arborescente ou existant dans deux dimensions en même temps.<a class="footnotecall" id="bodyftn21" href="#ftn21">21</a> On a donc successivement :</p>
+</div>
+<table class="example">
+<tr>
+<td>(32)</td>
+<td>a. </td>
+<td>Merge (α, γ) = δ</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>Merge (γ, β) = ε</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">74</span>Comme l’observe de Vries (2009), il serait nécessaire, pour exclure cette possibilité, d’introduire une condition supplémentaire sur l’output de <em>Merge</em>, posant que ce dernier est un objet syntaxique indépendant, mais le concept d’indépendance n’est pas facile à définir. Chomsky, quant à lui, considère ces développements sans indulgence, estimant qu’ils contribuent à accroître considérablement la complexité computationnelle (voir en particulier <em>PoP</em>). Il est préférable selon lui de s’en tenir à l’idée que <em>Merge </em>ne peut opérer qu’à la racine des objets syntaxiques, comme le requiert la Condition d’extension. On doit donc s’interroger sur l’opportunité de compliquer la théorie.</p>
+<h1 class="texte"><a href="#tocfrom1n4" id="tocto1n4">4. La Condition d’extension</a></h1>
+<p class="texte"><span class="paranumber">75</span>Le minimalisme marque un retour partiel à l’appareillage technique et formel en usage avant 1965, c’est-à-dire avant la définition de la théorie standard dans <em>ATS</em>. Il n’existe pas de niveau de structure D, puisque aucune structure ne préexiste à l’insertion lexicale et que le système computationnel manipule exclusivement des items lexicaux introduits <em>on line</em> au cours de la dérivation syntaxique. La dérivation procède de bas en haut, les unités syntaxiques les plus enchâssées étant créées les premières, avant de se combiner avec d’autres unités, mots ou expressions, pour construire des unités complexes plus étendues. Les processus qui combinent plusieurs unités complexes indépendantes pour former des structures plus étendues (correspondant aux <em>transformations généralisées</em> dans les modèles antérieurs à <em>ATS</em>) s’intercalent parmi ceux qui manipulent des structures déjà construites (les <em>transformations singulaires</em>).</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">22</span> Les propositions, par exemple, définissent des phases. Sur la théorie des phases, voir chapitre VII <a href="#ftn22">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">76</span>L’hypothèse cyclique est maintenue et prend la forme de la théorie des phases, qui, en posant qu’un domaine phasal cesse d’être accessible quand la dérivation a atteint la phase suivante, garantit que les dérivations procèdent de façon cyclique.<a class="footnotecall" id="bodyftn22" href="#ftn22">22</a> Une autre condition, la Condition d’extension, introduite dans <em>MPLT</em>, pose que chaque application de <em>Merge</em> et de <em>Move</em> doit étendre l’indicateur syntagmatique. On peut la formuler comme en (33).</p>
+</div>
+<table class="example">
+<tr>
+<td>(33)</td>
+<td><strong>Condition d’extension</strong></td>
+</tr>
+<tr>
+<td> </td>
+<td>Les opérations <em>Merge</em> et <em>Move</em> dans la syntaxe explicite ne peuvent cibler que des objets syntaxiques à la racine de l’arbre.</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">23</span> Ce principe exclut qu’une opération impliquant deux positions internes à un cycle A intervienne une <a href="#ftn23">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">77</span>Cette condition définit une contrainte sur la construction de la structure syntagmatique, c’est-à-dire sur <em>Merge </em>: le <em>Merge</em> externe et le <em>Merge </em>interne doivent cibler la racine de l’arbre. Elle exclut que l’on remonte le temps dérivationnel, en revenant à un domaine enchâssé couvert antérieurement, et subsume donc les effets du Principe de cyclicité stricte.<a class="footnotecall" id="bodyftn23" href="#ftn23">23</a> En termes plus formels, l’application de <em>Merge</em>, externe ou interne, à une structure K donne systématiquement lieu à une extension K* de cette structure, qui inclut K comme sous-partie. La Condition d’extension peut être aussi conçue comme une condition sur l’output de <em>Merge </em>: l’output de <em>Merge</em> « n’est pas inclus dans un objet syntaxique plus étendu » (de Vries 2009).</p>
+</div>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">24</span> La transposition directe de cet exemple au français se heurte au fait que le français, contrairemen <a href="#ftn24">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">78</span>À l’appui de cette hypothèse, Chomsky observe que dans la structure (34a), il serait possible, dans une approche n’intégrant pas cette condition, de déplacer <em>John</em> directement, en une seule étape, sans violation de localité, dans le spécifieur de la proposition matrice et d’insérer <em>it</em> dans le spécifieur de la proposition intermédiaire, produisant (33b), une structure illustrant le phénomène de <em>super-raising</em> (super-montée).<a class="footnotecall" id="bodyftn24" href="#ftn24">24</a></p>
+</div>
+<table class="example">
+<tr>
+<td>(34)</td>
+<td>a. </td>
+<td>[<sub>I’</sub> seems [<sub>I’</sub> is certain [<sub>IP</sub> John to be here]]]</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>*John seems it is certain <del>John</del> to be here.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">79</span>Un autre cas met en jeu la Contrainte des îlots interrogatifs. La Condition d’extension, comme précédemment le principe de cyclicité, exclut que dans la structure (35a), <em>comment</em> soit directement déplacé dans le spécifieur du CP matrice et qu’ensuite <em>quelle voiture</em> soit inséré dans le spécifieur du CP subordonné, en violation de la contrainte. Cela donnerait (35b) :</p>
+<table class="example">
+<tr>
+<td>(35)</td>
+<td>a. </td>
+<td>[<sub>C’</sub> C [Jean se demande [<sub>C’</sub> C [Marie a réparé quelle voiture comment]]]] </td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>*Comment Jean se demande quelle voiture Marie a réparée <del>quelle voiture comment ?</del></td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">80</span>(33) impose donc un ordre strict sur les opérations computationnelles. Il est exclu, par exemple, dans la dérivation de (36), de combiner par <em>Merge</em> le nom <em>garçon</em> et l’expression construite antérieurement <em>voit Marie</em>, puis de combiner l’article <em>le</em> avec la structure résultante.</p>
+<table class="example">
+<tr>
+<td>(36)</td>
+<td>Le garçon voit Marie.</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">81</span>Ce scénario produit un échec dérivationnel. (33) exclut en effet que <em>le</em> soit combiné avec <em>garçon</em>, après que <em>garçon</em> a été combiné avec <em>voit Marie</em> : <em>garçon</em> n’est plus alors un objet-racine – c’est le TP <em>garçon voit Marie</em> qui satisfait la définition. Le <em>merger</em> de <em>le</em> et de ce TP produit d’autre part une structure dans laquelle <em>le</em> et <em>garçon</em> ne forment pas un constituant : un résultat incorrect. L’effet de (33) est donc d’imposer que le <em>merger</em> de <em>le</em> et de <em>garçon</em> précède le <em>merger</em> de l’expression nominale avec le TP. Pour que la dérivation réussisse, il est nécessaire que <em>le</em> et <em>garçon</em> soient assemblés de façon indépendante, avant d’être combinés avec le reste de la structure.</p>
+<p class="texte"><span class="paranumber">82</span>On voit que la Condition d’extension est une pièce essentielle dans une approche qui pose que la computation construit les structures arborescentes de bas en haut, combinant un item tiré de la numération avec un fragment de structure préalablement construit ou assemblant deux fragments de structure préalablement construits en parallèle.</p>
+<p class="texte"><span class="paranumber">83</span>Cette condition a une autre implication : elle équivaut à poser que les opérations <em>Merge</em> externe et <em>Merge</em> interne préservent la structure existante. Je reproduis ici, sous forme simplifiée, la discussion de ce point dans <em>MI</em> (p. 52-53). Supposons que la dérivation ait combiné par <em>Merge</em> un item lexical H porteur d’un trait sélectionnel F et un XP satisfaisant F. Ce premier <em>Merge</em> produit l’objet syntaxique α = {H, XP}, de label H. Supposons maintenant que l’on cherche à combiner β avec α ; β est soit un objet déplacé depuis XP, soit un élément distinct directement inséré par <em>pure Merge</em>. A priori, deux options sont possibles : ß se combine à l’objet complexe de label H résultant du premier <em>Merge</em> ; ß se combine à la tête portant le trait sélectionnel. Ce qui donne (37a) ou (37b) :</p>
+<table class="example">
+<tr>
+<td>(37)</td>
+<td>a. </td>
+<td>[<sub>H</sub> ß [<sub>H</sub> H XP]]</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>[<sub>H </sub>XP [<sub>H</sub> H ß]]</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">25</span> Cette discussion de la Condition d’extension laisse plusieurs questions sans réponse. Par exemple : </li>
+</ul>
+<p class="texte"><span class="paranumber">84</span>Si H est T, XP VP et ß un explétif combiné avec TP ou un DP déplacé depuis VP, le résultat des deux opérations <em>Merge</em> est (37a), où ß correspond au spécifieur de TP et VP conserve son statut de complément de T. Les relations grammaticales basiques sont préservées. On ne veut pas que ß devienne le complément de T et VP son spécifieur, comme en (37b). Dans ce cas, les relations de sororité et de c-commande concernant H se trouveraient modifiées, alors qu’elles sont préservées par le choix précédent. La Condition d’extension exclut l’option (37b) et produit donc le résultat cherché.<a class="footnotecall" id="bodyftn25" href="#ftn25">25</a></p>
+</div>
+<p class="texte"><span class="paranumber">85</span>Dans <em>OPh</em>, Chomsky évoque la possibilité que cette condition soit un cas particulier d’une contrainte à laquelle il donne le nom de <em>No Tampering Condition</em>, bloquant toute modification des structures déjà construites. Elle est formulée en (38) :</p>
+<table class="example">
+<tr>
+<td>(38)</td>
+<td><strong>Condition de non-altération</strong> (<em>No-Tampering Condition</em>, NTC)</td>
+</tr>
+<tr>
+<td> </td>
+<td>La combinaison par <em>Merge</em> de X et de Y laisse ces deux objets syntaxiques inchangés.</td>
+</tr>
+<tr>
+<td> </td>
+<td>(<em>OPh</em>, p. 139)</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">26</span> <em>Affix Hopping</em>, introduit par Chomsky dans <em>Syntactic Structures</em>, attache les marques flexionnelles, <a href="#ftn26">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">86</span>(38) est essentiellement une contrainte de préservation de la structure. Une fois qu’un objet syntaxique a été formé par C<sub>HL</sub>, il demeure inchangé pendant le reste de la computation et ne peut plus être modifié par d’autres opérations de construction de la structure ou de mouvement. Une fois qu’on a combiné X et Y par <em>Merge</em> externe ou par <em>Merge</em> interne pour former l’objet complexe Z, X et Y ne peuvent plus être altérés, ce qui prédit que dans le cas le plus simple Z est l’ensemble {X, Y}. La condition (38) exclut en particulier que <em>Merge</em> scinde X ou Y ou leur ajoute des traits. Elle permet donc de dériver les effets de la Condition d’inclusion, qui exclut l’introduction en cours de dérivation, à des fins descriptives, de barres, d’indices et de tout autre procédé technique. Elle impose indirectement le recours à la théorie du mouvement par copie, qui, lorsqu’un objet étendu est formé, ne modifie pas l’objet contenant initialement l’objet déplacé (voir <em>TF</em>). (38) implique aussi que <em>Merge</em> opère invariablement à la racine de l’arbre, contribuant ainsi à alléger considérablement la charge computationnelle : aucune recherche n’est nécessaire pour savoir comment deux objets syntaxiques sont combinés. Elle prédit l’omniprésence dans le fonctionnement syntaxique des opérations de montée (<em>raising</em>) : un objet syntaxique disloqué ne peut se déplacer que dans une position plus haute dans la structure ; une opération consistant à déplacer un élément dans une position plus basse violerait (38). Il est vrai que la grammaire admet l’existence d’opérations d’abaissement (<em>lowering</em>). Mais l’exemple le plus célèbre de ce type d’opération, <em>Affix Hopping</em> en anglais, est habituellement analysé comme un cas de <em>merger</em> en PF (voir Bobaljik 1995, Embick et Noyer 2001).<a class="footnotecall" id="bodyftn26" href="#ftn26">26</a> Touchant les étiquettes catégorielles, elle exclut toute opération qui pourrait modifier les relations impliquant le label qui se projette – dans le cas considéré, la relation de sœur et celle de c-commande. On a donc affaire à une condition naturelle sur les computations efficaces, qui impose de préserver, sans les modifier, les objets syntaxiques préalablement introduits par <em>Merge</em> dans les dérivations. Dans la mesure où elle contraint à la fois l’application et l’output de l’opération de construction de la structure, la NTC, en éliminant les opérations superflues, contribue efficacement à minimiser la charge computationnelle.</p>
+</div>
+<h1 class="texte"><a href="#tocfrom1n5" id="tocto1n5">5. Relations structurales basiques et dérivées</a></h1>
+<p class="texte"><span class="paranumber">87</span>Maintenant que la nature de <em>Merge</em> a été précisée, il devient possible de dresser l’inventaire des relations formelles définissables sur les objets syntaxiques et accessibles à C<sub>HL</sub>, le système computationnel du langage humain.</p>
+<p class="texte"><span class="paranumber">88</span>Dans <em>MI</em> (p. 113), l’un des buts que Chomsky assigne à la théorie linguistique est de démontrer que « les relations qui entrent dans C<sub>HL</sub> (i) sont imposées par les conditions de lisibilité aux interfaces, ou (ii) découlent de façon naturelle du processus computationnel lui-même ». Le passage suivant peut servir à illustrer le point (ii) :</p>
+<blockquote>
+<p class="citation"><em>Merge</em> prend deux objets α et ß et forme un nouvel objet K (α, ß). L’opération rend directement disponibles deux relations : la relation de sœur (<em>sisterhood</em>), qui se vérifie entre α et ß, et la relation « contient immédiatement » (<em>immediately contains</em>), qui vaut pour (K, α), pour (K, ß), ainsi que pour (K, K) (si on considère cette relation comme réflexive). (<em>MI</em>, p. 116)</p>
+</blockquote>
+<p class="texte"><span class="paranumber">89</span>Certaines relations semblent devoir être accessibles au système computationnel, bien qu’elles ne fassent pas partie des relations fondamentales définies sur la base de <em>Merge</em>. C’est le cas de la notion générale de contenance et de celle de c-commande. Pour les obtenir, il suffit, selon Chomsky, de s’autoriser à composer les relations basiques entre elles. Si on procède « de toutes les façons possibles », on dérive trois relations nouvelles (voir <em>MI</em>, p. 116) :<br />(i) la clôture transitive <em>contient</em> de <em>contient immédiatement</em>, soit la composition de la relation <em>contient immédiatement</em> avec elle-même, rendue possible par sa réflexivité = (contient (contient)) ;<br />(ii) l’identité, soit la composition de la relation de sœur avec elle-même, qui, notons-le au passage, ne correspond à l’identité que parce que <em>Merge</em> est binaire = sœur (sœur) ;<br />(iii) la c-commande, soit la composition de la relation de sœur avec la relation <em>contient</em> = sœur (contient).</p>
+<p class="texte"><span class="paranumber">90</span>Ce qui donne :</p>
+<table class="example">
+<tr>
+<td>(39)</td>
+<td>K contient α si K contient immédiatement α ou contient immédiatement L qui contient α. Inversement, α est un terme de K si K contient α.</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">27</span> Cette définition, qui est celle qu’utilise Chomsky dans le passage cité, est une variante de (13).</li>
+</ul>
+<table class="example">
+<tr>
+<td>(40)</td>
+<td>α c-commande ß si α est la sœur de K qui contient ß.<a class="footnotecall" id="bodyftn27" href="#ftn27">27</a></td>
+</tr>
+</table>
+</div>
+<p class="texte"><span class="paranumber">91</span>Ces résultats semblent justifier la démarche de Chomsky qui consiste à fonder l’ensemble des relations formelles accessibles au système computationnel sur le processus dérivationnel lui-même, tout en admettant une extension de cette procédure reposant sur la possibilité de composer entre elles les relations précédemment obtenues.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">28</span> Selon Atkinson, le fait que la dominance immédiate – l’analogue dans la théorie des arbres de la co <a href="#ftn28">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">92</span>On doit observer que la relation de c-commande n’est pas proprement dérivée par composition des relations élémentaires <em>sœur</em> et <em>contient immédiatement</em>. La c-commande n’est pas en effet restreinte aux éléments immédiatement contenus dans la sœur du terme c-commandant. Le processus de composition devient très complexe si l’on s’autorise à combiner une relation basique (la sororité) et une relation déjà dérivée par composition (la contenance), ce que fait Chomsky dans le passage cité.<a class="footnotecall" id="bodyftn28" href="#ftn28">28</a></p>
+</div>
+<p class="texte"><span class="paranumber">93</span>La décision de restreindre l’accès du système computationnel aux relations formelles primitives résultant de <em>Merge</em> et à celles qui résultent de la composition de ces dernières a pour conséquence que certaines relations qui ont joué un rôle essentiel dans les analyses menées dans les cadres précédents ne sont plus disponibles et doivent être abandonnées. Chomsky précise ce point dans <em>BEA </em>:</p>
+<blockquote>
+<p class="citation">Si la computation se conforme à ces conditions austères, elle ne peut s’appuyer sur une relation de Tête à Spécifieur = R(H, Spec), la relation appelée <em>m-commande</em> dans les travaux antérieurs. Une telle relation n’existe pas. Il existe par contre une relation R(Spec, H) [c’est-à-dire une relation du Spécifieur à la Tête, A.R], à savoir la c-commande […]. (<em>BEA</em>, p. 109)</p>
+</blockquote>
+<p class="texte"><span class="paranumber">94</span>L’idée est ici qu’une tête ne peut, dans le cas général, entrer en relation directe avec le contenu de son spécifieur, parce que ce dernier ne se trouve pas dans son domaine de recherche défini en termes de c-commande. Quantité de relations dans les langues semblent pourtant démentir cette prédiction, par exemple la relation d’accord entre une forme verbale conjuguée et son sujet (si on suppose que le sujet et le verbe occupent à <em>Spell-Out</em> le spécifieur et la tête de la même projection flexionnelle ou se sont trouvés dans une telle configuration à un point de la dérivation). Mais selon Chomsky, c’est là une fausse évidence. Les relations Spec-Tête concernées recouvrent en réalité des relations Tête-Tête résultant d’une recherche minimale fondée sur la c-commande locale. Dans la configuration (41a), H peut entrer en relation avec X, la tête de son complément XP ; ce dernier peut ensuite se déplacer dans le spécifieur de HP, comme en (41b), créant l’illusion d’une relation directe entre H et XP.</p>
+<table class="example">
+<tr>
+<td>(41)</td>
+<td>a. </td>
+<td>[<sub>HP</sub> H [<sub>XP</sub> X YP]]</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>[<sub>HP</sub> XP [<sub>H’</sub> H <del>XP</del>]]</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">95</span>Par contre, quand le spécifieur est lui-même une simple tête K qui c-commande H, rien n’exclut l’établissement d’une relation directe entre K et H.</p>
+<table class="example">
+<tr>
+<td>(42)</td>
+<td>[<sub>HP</sub> K [<sub>H’</sub> H…]]</td>
+</tr>
+</table>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">29</span> L’hypothèse du sujet interne à VP est antérieure à l’hypothèse de la catégorie v et a pris des form <a href="#ftn29">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">96</span>Bien qu’elle doive encore être justifiée empiriquement, la non-existence de la relation Tête-Spec a des conséquences importantes pour le fonctionnement du système computationnel. Elle implique en particulier que le <em>Merge</em> externe ne peut suffire à vérifier le trait [EPP] d’une tête H. Soit l’exemple de la catégorie T, équipée d’un trait [EPP], requérant que son spécifieur soit projeté et occupé. L’insertion de matériel dans le Spec de TP est nécessaire pour vérifier et éliminer ce trait. Dans une proposition contenant un DP sujet complexe, produit lui-même par applications successives de <em>Merge</em>, l’insertion directe de ce DP dans le Spec de TP par <em>Merge</em> externe ne peut satisfaire cette condition, simplement parce que le DP sujet n’est pas dans le domaine de recherche de T. Il faut supposer que ce DP a occupé une position c-commandée par T avant de se déplacer dans SpecTP. Cette position, on le sait, est SpecvP, qui, dans les termes de l’hypothèse du sujet interne à VP, est la position originelle de l’argument externe des prédicats transitifs agentifs (comme <em>frapper</em>) ou expérientiels (comme <em>craindre</em>).<a class="footnotecall" id="bodyftn29" href="#ftn29">29</a> Une relation d’accord (<em>Agree</em>) est établie entre T et l’argument sujet dans SpecvP – les traits φ de T fonctionnent comme sonde, ceux du DP comme cible –, le résultat étant la valuation des traits φ de T et la vérification du trait de Cas de DP. Cette situation est illustrée par (43).</p>
+</div>
+<table class="example">
+<tr>
+<td>(43)</td>
+<td>a. </td>
+<td>[<sub>TP</sub> trouveront-T [<sub>vP</sub></td>
+<td>[<sub>DP</sub>les étudiants] </td>
+<td>[<sub>v’</sub><del>trouveront</del> la solution]]]</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>φ </td>
+<td>φ</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>EPP </td>
+<td>Cas</td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>[<sub>TP</sub> [<sub>DP</sub>les étudiants] </td>
+<td>trouveront-T [<sub>vP</sub></td>
+<td>[<sub>DP</sub><del>les étudiants</del>]</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>φ </td>
+<td><del>φ</del></td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td><del>EPP</del></td>
+<td><del>Cas</del></td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td>[<sub>v’</sub><del>trouveront</del> la solution]]]</td>
+<td> </td>
+<td> </td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">97</span>Les structures dans lesquelles la position de sujet grammatical est occupée par un pronom explétif fournissent l’exemple d’une situation dans laquelle le spécifieur de la catégorie T est une simple tête, <em>il</em> en français, <em>there</em> ou <em>it </em>en anglais. Dans ce cas, le terme occupant le spécifieur de T a accès aux traits de la tête T, qui est incluse dans son domaine de recherche. Ces constructions seront analysées en détail en VI.7.</p>
+<p class="texte"><span class="paranumber">98</span>La non-disponibilité de la relation Tête-Spécifieur est à l’origine d’un changement majeur dans le fonctionnement des relations de vérification (j’emploie ce terme en un sens très général, pour désigner toutes les relations dans lesquelles entrent les traits non interprétables / non valués). Dans <em>MPLT</em> (p. 11) et dans C<em>&amp;T</em>, le domaine de vérification (<em>checking domain</em>) d’une tête α est défini comme le domaine de la tête (c’est-à-dire comme l’ensemble des nœuds contenus dans la projection maximale de la tête, à l’exception de la tête elle-même), moins le domaine complément de la tête (le sous-ensemble des nœuds que contient le complément de la tête). Ce résidu inclut le spécifieur de la tête et tout ce qui est adjoint, l’adjonction pouvant s’effectuer à la projection maximale, au spécifieur, ou à la tête elle-même. Dans <em>MI</em>, <em>DbP</em> et <em>BEA</em>, le domaine pertinent est au contraire restreint au complément de la tête : l’opération <em>Agree</em> ne peut cibler qu’un item lexical ou un trait dans le domaine de c-commande de la tête et la vérification se fait in situ.</p>
+<h1 class="texte"><a href="#tocfrom1n6" id="tocto1n6">6. Remarque sur la notion de gouvernement</a></h1>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">30</span> Seul est concerné ici le gouvernement par tête – on ignore le gouvernement par antécédence intégré <a href="#ftn30">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">99</span>Une dimension importante de la théorie minimaliste est le rejet de la notion de gouvernement (<em>government</em>) qui jouait un rôle déterminant dans quasi tous les modules de la grammaire dans le modèle des Principes et Paramètres, également désigné sous l’étiquette de modèle du Gouvernement et du Liage (voir <em>LGB</em>). C’est dans <em>MPLT</em> que Chomsky prononce cette exclusion, essentiellement motivée par le statut arbitraire de la notion, mais aussi par son caractère marqué de principe de la Grammaire Universelle (relevant donc directement du facteur 1 et de l’équipement génétique des locuteurs).<a class="footnotecall" id="bodyftn30" href="#ftn30">30</a></p>
+</div>
+<p class="texte"><span class="paranumber">100</span>Dans ses premières instanciations, le gouvernement est la relation structurale qui se vérifie entre (i) une catégorie tête et la projection maximale complément (c’est-à-dire sœur) de cette tête, et aussi entre (ii) une tête et le spécifieur de la projection maximale complément de cette tête. En bref, si une tête gouverne une projection maximale, elle gouverne aussi le spécifieur de cette projection maximale. L’idée que ces deux configurations structurales partagent plusieurs propriétés et devraient être subsumées sous la même notion trouve sa motivation initiale dans plusieurs phénomènes, le marquage casuel, le mouvement, le liage.</p>
+<table class="example">
+<tr>
+<td>(44)</td>
+<td>a. </td>
+<td>Max rencontre souvent t<sub>v</sub> Léa dans les cafés.</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>Pierre laisse t<sub>v </sub>[Marie téléphoner à sa mère].</td>
+</tr>
+</table>
+<table class="example">
+<tr>
+<td>(45)</td>
+<td>a. </td>
+<td>Max a rencontré sa propre fille à la manifestation.</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>Pierre laisse t<sub>v</sub> [sa propre fille téléphoner à l’avocat].</td>
+</tr>
+</table>
+<table class="example">
+<tr>
+<td>(46)</td>
+<td>a. </td>
+<td>Qui Max rencontre-t-il souvent t<sub>v</sub><del>qui</del> dans les cafés ?</td>
+</tr>
+<tr>
+<td> </td>
+<td>b. </td>
+<td>Qui Pierre laisse-t-il t<sub>v</sub> [<del>qui</del> téléphoner à l’avocat] ?</td>
+</tr>
+</table>
+<p class="texte"><span class="paranumber">101</span>On supposait qu’en (44a), l’argument objet était casuellement marqué par le verbe <em>rencontre</em> (ou plutôt par la chaîne ayant pour tête <em>rencontre</em>) et qu’en (44b), <em>laisse</em> assignait le Cas accusatif au spécifieur de la proposition infinitive complément (qui est un TP). Les exemples (45) montrent que la position complément de <em>rencontré</em> et la position spécifieur du TP complément de <em>laisse</em> peuvent l’une et l’autre contenir une expression nominale anaphorisée par le sujet du verbe matrice. Les exemples (46) indiquent que le mouvement d’interrogatif (<em>Wh-movement</em>) est possible depuis ces deux positions. Le modèle du gouvernement et du liage est en partie construit sur l’idée que ces trois phénomènes – marquage casuel, mouvement et liage anaphorique – sont sensibles à une relation structurale unique, pertinente dans chacun des modules concernés, le gouvernement, et que cette relation est vérifiée dans les deux configurations mentionnées. Le concept de gouvernement formalise l’observation que le complément YP de X et le spécifieur ZP du complément YP de X sont l’un et l’autre accessibles à X.</p>
+<p class="texte"><span class="paranumber">102</span>Il est vrai qu’au cours des années quatre-vingt, plusieurs observations ont contribué à brouiller la simplicité de la généralisation initiale : il est apparu que toutes les têtes, et même toutes les têtes lexicales, n’avaient pas les mêmes propriétés de gouvernement (N ne gouverne pas comme V) et qu’il était parfois tentant de supposer que le spécifieur d’une projection maximale était gouverné par la tête de cette projection. Ces observations, et aussi le fait que les chercheurs aient développé la notion dans des directions multiples et divergentes, ont conduit à l’abandon du concept de gouvernement dans le minimalisme. Cet abandon a imposé de reprendre sur des bases nouvelles l’analyse des phénomènes qui, dans les versions précédentes du modèle, étaient traités en termes de gouvernement. C’est le cas de l’assignation casuelle, des phénomènes de liage réglés par des principes formulés en termes de catégorie gouvernante, des effets liés au Principe des catégories vides (<em>Empty Category Principle</em>, ECP), de la distribution de l’élément nul PRO, dont on admettait qu’il devait occuper une position non gouvernée. Je reviendrai en détail sur le traitement minimaliste de certains de ces phénomènes. Mais il est clair que si le gouvernement ne joue plus de rôle spécifique dans la théorie, il doit, si l’on adhère à l’épistémologie du minimum, être éliminé.</p>
+<div class="textandnotes">
+<ul class="sidenotes">
+<li><span class="num">31</span> Notons que l’analyse résumée dans le texte n’impose pas de dire qu’une relation directe existe entr <a href="#ftn31">(...)</a></li>
+</ul>
+<p class="texte"><span class="paranumber">103</span>Dans <em>C&amp;T</em>, Chomsky observe que la relation tête-complément et la relation spécifieur-tête sont indépendamment reconnues par la grammaire, au sens où elles correspondent à des configurations élémentaires créées par <em>Merge</em>. Dans l’ensemble des structures subsumées sous la notion de gouvernement, la relation entre une tête et le spécifieur de son complément est la seule à ne pas correspondre à une configuration créée par <em>Merge</em>. C’est donc pour cette seule relation que la notion de gouvernement par tête doit être redéfinie. Le raisonnement de Chomsky est que cette configuration devrait pouvoir être ramenée à l’une des deux autres. Selon lui, l’idée que le sujet enchâssé de la proposition infinitive complément d’un verbe de la classe de <em>laisser</em> est casuellement marqué in situ par le verbe matrice (voir 44b) repose sur une fausse évidence et doit être abandonnée. Le marquage casuel exceptionnel résulte en fait de la montée du sujet enchâssé dans le spécifieur de la catégorie v matrice, équipée d’un trait de Cas accusatif et dans laquelle se déplace le verbe lexical.<a class="footnotecall" id="bodyftn31" href="#ftn31">31</a> Cette analyse peut facilement être étendue à la légitimation casuelle de la trace d’interrogatif en (46b) et à la légitimation casuelle et interprétative de l’expression anaphorique en (45b).</p>
+</div>
+<p class="texte"><span class="paranumber">104</span>Il est d’autant plus intéressant de se demander si le gouvernement est ou non définissable par l’algorithme que Chomsky utilise dans <em>MI </em>dans sa discussion des relations formelles possibles. Comme je l’ai indiqué plus haut, il établit une distinction entre deux types de relations : celles qui dérivent directement de <em>Merge</em> et celles qui résultent de la composition des précédentes. La relation de sœur entre une tête lexicale ou fonctionnelle et son complément appartient au premier groupe et n’a pas besoin d’être justifiée. La relation entre une tête et le spécifieur de la catégorie complément, reconnue comme une relation de gouvernement dans le modèle précédent et dont la construction à marquage exceptionnel, dans l’analyse schématisée en (44b), fournit un exemple privilégié, est une relation du deuxième type. Or il est facile de vérifier que cette relation est dérivable par composition des relations basiques de sœur et de contenance immédiate. On en conclut que le système proposé par Chomsky pour définir les relations structurales disponibles autorise la dérivation des deux sous-cas de gouvernement par tête admis dans le modèle précédent. S’il en est bien ainsi, on peut se demander pourquoi le gouvernement est à ce point suspect d’un point de vue minimaliste. La réponse ne peut venir que de considérations empiriques montrant que ce concept est inutile. C’est le cas des constructions à marquage casuel exceptionnel, pour lesquelles une autre analyse paraît préférable. Mais le fait que (44)-(46) puissent être analysés en termes différents, ne faisant pas intervenir la notion de gouvernement, ne suffit pas à démontrer la non-pertinence du gouvernement.</p>
+<p class="texte"><span class="paranumber">105</span>En conclusion, on peut rappeler un point évoqué brièvement plus haut. Lorsqu’il introduit la c-commande, Chomsky qui avait précédemment restreint la discussion à la contenance immédiate se met à parler de contenance, et démontre que la composition de <em>sœur</em> et de <em>contenance</em> produit la c-commande. Il introduit donc dans la discussion une relation non basique, la contenance, et ignore la relation basique, la contenance immédiate, dont la discussion menait tout droit à la dérivation du gouvernement par tête.</p>
+<h1 class="texte"><a href="#tocfrom1n7" id="tocto1n7">7. Conclusion</a></h1>
+<p class="texte"><span class="paranumber">106</span>La théorie développée dans <em>BPS</em>, <em>C&amp;T</em>, <em>MI</em> et <em>DbP</em> se propose de représenter et d’expliquer les propriétés saillantes de la structure syntagmatique, endossées précédemment par la théorie X-barre, tout en satisfaisant à l’exigence minimaliste d’observer des conditions générales de <em>design</em> optimal et de n’intégrer au dispositif que des hypothèses et des outils formels imposés par la nécessité conceptuelle ou la loi naturelle. L’idée sur laquelle repose tout l’édifice est que les caractéristiques essentielles de la structure en constituants sont dérivables des propriétés de l’opération de construction de la structure, <em>Merge</em>, définie comme une opération binaire, récursive, combinant des objets syntaxiques simples ou complexes et produisant des structures hiérarchiques nues.</p>
+<p class="texte"><span class="paranumber">107</span>Les propriétés de <em>Merge</em> interagissent avec des conditions générales sur le fonctionnement des computations – c’est le cas de la Condition d’extension qui fonctionne comme une contrainte sur l’application et sur l’output de <em>Merge</em>, sans qu’il soit nécessaire de stipuler quelque autre condition que ce soit sur le fonctionnement de cette opération.</p>
+<p class="texte"><span class="paranumber">108</span>D’autres traits de cette théorie ne sont pas dictés par des considérations d’efficacité computationnelle, mais imposés par la nécessité de satisfaire de façon optimale les conditions d’interface imposées par les systèmes cognitifs avec lesquels la Faculté de Langage est en relation d’interface – il est par exemple inévitable d’assigner un label aux objets complexes résultant de <em>Merge</em> afin de distinguer de façon appropriée expressions nominales et prédicats au niveau LF/SEM.</p>
+<p class="texte"><span class="paranumber">109</span>Une question de grande portée, brièvement évoquée, est celle de savoir ce qui déclenche <em>Merge</em>. Certains auteurs, Collins (2002), Abels (2003), Adger (2003), Pesetsky et Torrego (2006), Donati et Cecchetto (2011), Wurmbrand (2014), mais aussi Chomsky (<em>MI</em>), admettent que <em>Merge</em>, comme <em>Move</em>, est soumis à une condition de dernier recours et n’est possible que s’il contribue à la vérification d’un trait. Dans cette conception, des considérations d’économie et de dernier recours interviennent dans le fonctionnement des deux variantes de <em>Merge</em>.</p>
+<p class="texte"><span class="paranumber">110</span>Une autre tâche urgente, quand on cherche à expliciter le fonctionnement de <em>Merge</em>, est de déterminer quelle relation <em>Merge </em>entretient avec l’ordre linéaire. Chomsky admet que la combinaison par <em>Merge</em> de deux objets syntaxiques α et β produit l’ensemble {α, β} (c’est du moins le cas du <em>Merge</em> ensembliste), c’est-à-dire un objet ne codant pas les relations de précédence. Dans <em>OPh</em>, il mentionne brièvement l’hypothèse concurrente que l’opération <em>Merge</em> forme une paire ordonnée &lt;α, β&gt;, mais observe que si elle était adoptée, la complexité de <em>Merge</em> s’en trouverait fortement accrue. <em>Spell-Out</em>, il est vrai, n’aurait plus la charge de dériver l’ordre linéaire. Cette deuxième option ne peut être écartée a priori. La question de la linéarisation est examinée au chapitre suivant.</p> </div> </div>
+<div id="notes">
+<h2 class="section">Anmerkungen</h2>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn1" id="ftn1">1</a> La notion de c-commande est définie en (13).</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn2" id="ftn2">2</a> Cette affirmation doit être précisée et nuancée, voir note 3 dans Repères.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn3" id="ftn3">3</a> Ces morphèmes sont les exposants de deux dimensions grammaticales à la fois. C’est le cas de ‑<em>ont</em> en français, à la fois personne et nombre.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn4" id="ftn4">4</a> Les transformations singulaires sont celles qui s’appliquent à des structures propositionnelles déjà construites. L’exemple (i) permet d’illustrer le constat fait par Chomsky.</p>
+<table class="example">
+<tr>
+<td></td>
+<td>(i) </td>
+<td>Jean semble avoir été arrêté.</td>
+</tr>
+<tr>
+<td> </td>
+<td>(ii) </td>
+<td>[Δ semble [Δ avoir arrêté Jean]]</td>
+</tr>
+<tr>
+<td> </td>
+<td>(iii) </td>
+<td>[Δ semble [Jean avoir été arrêté]]</td>
+</tr>
+<tr>
+<td> </td>
+<td>(iv) </td>
+<td>[Jean semble [avoir été arrêté]]</td>
+</tr>
+</table>
+<p class="texte">(Dans <em>ATS</em>, le symbole fictif Δ désigne une catégorie introduite par les règles syntagmatiques, qui n’est remplie que dérivationnellement.) Deux transformations singulaires sont impliquées : la passivisation opère dans la proposition enchâssée et affecte l’argument de <em>arrêté</em> promu au rang de sujet grammatical de <em>avoir été arrêté</em> – voir (ii) et (iii) ; la montée opère dans la proposition matrice et déplace l’argument précédent dans la position sujet de <em>semble</em> – voir (iv). La première doit intervenir avant l’enchâssement, la seconde doit intervenir après. La notion de cyclicité, introduite dans <em>ATS</em>, permet d’imposer l’ordre adéquat : l’opération qui affecte le domaine enchâssé intervient nécessairement avant l’opération qui cible une position ou un élément de la principale.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn5" id="ftn5">5</a> L’analyse de Chomsky revenait à attribuer l’absence de propriétés verbales manifestée par certaines nominalisations à l’absence, dans leur structure interne, d’un sous-constituant verbal. Le problème se pose aujourd’hui dans des termes différents. C’est à la structure fonctionnelle dominant le verbe (ou la racine lexicale) plutôt qu’au verbe lui-même que l’on attribue les caractéristiques verbales ou nominales des nominalisations. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn6" id="ftn6">6</a> Je reprends ici les symboles catégoriels utilisés dans les textes originaux, voir la Liste des abréviations.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn7" id="ftn7">7</a> À l’époque les catégories fonctionnelles n’avaient pas encore été placées sous la compétence de la théorie X-barre, ce qui a été fait plusieurs années après, dans <em>Barriers</em>.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn8" id="ftn8">8</a> Les relations de dépendance lexicale (<em>lexical dependencies</em>) sont celles qui se vérifient entre un argument et la tête lexicale qui le sélectionne. Les dépendances de mouvement (<em>movement dependencies</em>) désignent les relations qui s’établissent entre la position dans laquelle une expression est prononcée et celle où elle reçoit ses propriétés interprétatives essentielles, thématiques en particulier (voir VII). Les dépendances d’accord (<em>agreement dependencies</em>) associent un verbe ou un participe à l’expression nominale dont ils partagent les traits de personne et de nombre ou de nombre et de genre (voir VI). Les dépendances référentielles sont les relations qu’entretiennent les pronoms et les mots ou expressions anaphoriques avec leur antécédent (voir X.4). </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn9" id="ftn9">9</a> La coréférence est soumise à une contrainte moins forte.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn10" id="ftn10">10</a> J’admets ici provisoirement que le label d’un objet syntaxique peut être un item lexical, voir <em>BPS </em>et (17), (18).</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn11" id="ftn11">11</a> Le LCA, qui repose sur une conception de la structure syntagmatique qui distingue entre nœuds préterminaux et symboles terminaux et requiert l’existence de nœuds non branchants, est fondé sur des hypothèses incompatibles avec la <em>bare phrase structure</em>, la seule théorie de la structure syntagmatique qui, aux yeux de Chomsky, satisfait aux exigences minimalistes. Voir V.2. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn12" id="ftn12">12</a> Poser la question en ces termes présuppose que les items lexicaux et fonctionnels qui se trouvent combinés par <em>Merge </em>sont eux-mêmes introduits dans les dérivations comme des mots porteurs d’un label catégoriel. C’est là, exprimée en termes formels, la conception traditionnelle.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn13" id="ftn13">13</a> L’opération de montée est déclenchée par les exigences du T matrice, codées par le trait [EPP] et les traits [φ], associés à cette catégorie, qui demandent respectivement à être vérifié et valués. Sur les notions de vérification et de valuation, voir VI.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn14" id="ftn14">14</a> <em>Agree</em> et les notions de sonde et de cible sont définis au chapitre VI.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn15" id="ftn15">15</a> Adger conçoit les traits de sélection catégorielle comme des traits non interprétables qui ne peuvent être satisfaits que par l’insertion d’objets ayant les caractéristiques appropriées. <em>rencontrer</em>, par exemple, est porteur d’un trait nominal ininterprétable, le trait [uD], qui est valué lorsque intervient le <em>merger</em> avec un complément DP ; <em>u</em> dans [uD] note le statut ininterprétable (<em>uninterpretable</em>) du trait D.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn16" id="ftn16">16</a> La théorie minimaliste du mouvement est présentée en VII.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn17" id="ftn17">17</a> Dans la théorie X-barre classique, on associait à l’adjonction les propriétés suivantes (voir Hornstein et Nunes 2008) :</p>
+<table class="example">
+<tr>
+<td></td>
+<td>(i) </td>
+<td>l’adjonction préserve l’information liée au niveau « barre » (<em>bar-level information</em>) ;</td>
+</tr>
+<tr>
+<td> </td>
+<td>(ii) </td>
+<td>l’adjonction n’affecte pas l’information catégorielle ;</td>
+</tr>
+<tr>
+<td> </td>
+<td>(iii) </td>
+<td>les relations de tête sont préservées ;</td>
+</tr>
+<tr>
+<td> </td>
+<td>(iv) </td>
+<td>la structure d’adjonction hérite de l’information concernant le rang hiérarchique (en termes de niveau « barre ») de la cible.</td>
+</tr>
+</table>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn18" id="ftn18">18</a> Chomsky désigne aussi parfois sous l’étiquette de <em>pure Merge</em> (<em>Merge</em> pur) les deux cas de <em>Merge</em> externe. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn19" id="ftn19">19</a> On réfère aussi à cette hypothèse sous l’étiquette de <em>Single Root Hypothesis</em> (Hypothèse de la racine unique).</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn20" id="ftn20">20</a> Sur la valuation de trait, voir VI. Le problème est ici que la condition de biunivocité entre sonde et cible n’est pas respectée. Mais voir VI.6.2 et IX.2 sur l’hypothèse de l’accord multiple.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn21" id="ftn21">21</a> On peut aussi parler à propos de la structure résultante de <em>Remerge</em> externe, comme le fait de Vries (2009). En (32), β n’a en effet aucun lien avec la racine δ. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn22" id="ftn22">22</a> Les propositions, par exemple, définissent des phases. Sur la théorie des phases, voir chapitre VIII.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn23" id="ftn23">23</a> Ce principe exclut qu’une opération impliquant deux positions internes à un cycle A intervienne une fois que le cycle B plus haut que le cycle A a été atteint, voir <em>CoT.</em></p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn24" id="ftn24">24</a> La transposition directe de cet exemple au français se heurte au fait que le français, contrairement à l’anglais, n’admet pas que les complétives finies ne soient pas introduites par un complémenteur. Si un complémenteur est présent, la structure résultante est de toute façon rejetée par le principe, quel qu’il soit, qui exclut l’extraction A par-dessus le complémenteur d’une proposition à temps fini. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn25" id="ftn25">25</a> Cette discussion de la Condition d’extension laisse plusieurs questions sans réponse. Par exemple : </p>
+<table class="example">
+<tr>
+<td></td>
+<td>(i) </td>
+<td>La Condition d’extension est-elle pertinente pour les opérations intervenant dans la syntaxe silencieuse ?</td>
+</tr>
+<tr>
+<td> </td>
+<td>(ii) </td>
+<td>Comment réconcilier l’adjonction de tête avec la Condition d’extension ?</td>
+</tr>
+</table>
+<p class="texte">L’adjonction d’une tête à une autre tête, par exemple celle d’un item verbal à la catégorie T, même si elle a lieu à la racine de l’arbre, c’est-à-dire lorsque la dérivation a atteint le niveau T, n’étend pas la structure. Dans ce cas, le <em>Merge</em> local a précédence sur la Condition d’extension. Je reviendrai sur (i) et (ii) dans les chapitres VII et X. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn26" id="ftn26">26</a> <em>Affix Hopping</em>, introduit par Chomsky dans <em>Syntactic Structures</em>, attache les marques flexionnelles, initialement dans Aux, aux racines verbales contenues dans V, pour dériver les formes finies.</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn27" id="ftn27">27</a> Cette définition, qui est celle qu’utilise Chomsky dans le passage cité, est une variante de (13).</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn28" id="ftn28">28</a> Selon Atkinson, le fait que la dominance immédiate – l’analogue dans la théorie des arbres de la contenance immédiate dans la théorie des ensembles – soit couramment considérée comme réflexive n’implique pas que la notion ensembliste de contenance immédiate le soit aussi. À la procédure définie par Chomsky, il oppose une approche dans laquelle la relation « contient immédiatement » n’est pas réflexive. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn29" id="ftn29">29</a> L’hypothèse du sujet interne à VP est antérieure à l’hypothèse de la catégorie v et a pris des formes diverses, avant que v ne soit intégré à l’inventaire des catégories fonctionnelles, voir Manzini (1987), Kitagawa (1986), Koopman et Sportiche (1991).</p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn30" id="ftn30">30</a> Seul est concerné ici le gouvernement par tête – on ignore le gouvernement par antécédence intégré à la définition du gouvernement propre, lui-même dérivé du gouvernement. </p>
+<p class="texte"><a class="FootnoteSymbol" href="#bodyftn31" id="ftn31">31</a> Notons que l’analyse résumée dans le texte n’impose pas de dire qu’une relation directe existe entre le tête v et le contenu de son spécifieur. Une relation d’accord s’établit dans un premier temps entre l’objet in situ et le v matrice, suivie par un déplacement de l’objet dans le spécifieur de vP. Dans les versions antérieures du modèle (voir <em>MPLT</em>), le sujet enchâssé se déplaçait dans le spécifieur d’une catégorie Agr<sub>o</sub> (Accord objet), sœur de la projection VP. Cette proposition est très proche de l’analyse que Postal, dans <em>On Raising</em>, proposait en 1974 des constructions du type de (44b). Postal suggérait que le sujet de la proposition enchâssée montait dans la proposition matrice et devenait de ce fait l’objet direct du verbe. Chomsky avait vigoureusement combattu cette analyse, considérant qu’il ne pouvait exister de position objet vide dans la proposition matrice susceptible d’accueillir le sujet déplacé ou, en termes équivalents, qu’un argument ne pouvait se déplacer dans une position elle-même argumentale (les positions objets sont nécessairement des sites argumentaux). La position spécifieur de Agr<sub>o</sub>, par contre, n’est pas un site argumental. Pour une analyse minimaliste des constructions à marquage casuel exceptionnel, voir VI.5.2.2. </p> </div><!-- #notes -->
+
+</body>
+</html>
