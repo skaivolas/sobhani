@@ -25,6 +25,11 @@ layout: post
 [Pravapis.org](https://Pravapis.org) — condense.
 
 
+## Neighboring sites
+
+[Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) — [Fundamentals of Modern Belarusian](https://s17.netlify.app/)
+
+
  <h2>Repositories</h2>
 
 <div class="github-widget" data-user="skaivolas"></div>
