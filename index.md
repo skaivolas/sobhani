@@ -34,7 +34,7 @@ Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1
 [Morphophonemic_Changes_in_Standard_Arabi](articles-to-digest/Morphophonemic_Changes_in_Standard_Arabi.pdf)
 [PhonesthemesinArabic](articles-to-digest/PhonesthemesinArabic.pdf)
 [processesofwordformationinEnglishandArabic](articles-to-digest/processesofwordformationinEnglishandArabic.pdf)
-
+and all the rest [index.html](articles-to-digest/)
 
 <!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
 <h2>Pages</h2>
