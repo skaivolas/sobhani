@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-[Каран](quran)  **//**
+[Каран](quran)
 [Беларуская савецкая паэзія](belarusian-soviet)  **//**
 [Біблія па-руску](bible-russian)  **//**
 [Сабака Баскервіляў па-ўкраінску](Sobaka_Baskerviliv_vyd_2010)  **//**
@@ -52,10 +52,67 @@ and all the rest [index.html](articles-to-digest/)  **//**
 [Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) — [Fundamentals of Modern Belarusian](https://s17.netlify.app/)
 
 
- <h2>Repositories</h2>
-
-<div class="github-widget" data-user="skaivolas"></div>
+## Repositories
 
 
-<script src="github-widget/github-widget.min.js"></script>
+khazarzar-books  **//**
+thesis-handbooks  **//**
+khazarzar-site  **//**
+books  **//**
+tracks  **//**
+domeyko-raw  **//**
+quant-preparation  **//**
 
+lang.fr.1-vocabulaire  **//**
+lang.swahili  **//**
+lang.hebrew  **//**
+lang.bel  **//**
+lang.transverse  **//**
+lang.conlangs  **//**
+lang.maltese  **//**
+lang.persian.3  **//**
+lang.arabe  **//**
+lang.persian.1  **//**
+lang.turkic  **//**
+lang.fr.bd  **//**
+lang.tocharian  **//**
+lang.english  **//**
+lang.russian.texts  **//**
+lang.linguistic-articles  **//**
+lang.persian.11  **//**
+lang.persian.9  **//**
+lang.persian.5  **//**
+lang.Persian.10  **//**
+lang.persian.8  **//**
+lang.persian.7  **//**
+lang.persian.6  **//**
+lang.persian.4  **//**
+lang.persian.2  **//**
+lang.fr.5-realites-culturelles  **//**
+lang.fr.6-dictionnaires-visuels  **//**
+lang.lexicons  **//**
+lang.indonesia  **//**
+lang.german  **//**
+lang.spanish  **//**
+lang.italian  **//**
+lang.polska  **//**
+lang.latin  **//**
+lang.trasianka.sasha-i-sirozha  **//**
+lang.kreyol-ayisien  **//**
+exp.fundamental-belarusan  **//**
+
+projects  **//**
+Tatoeba-Indo  **//**
+machine-learning  **//**
+mir  **//**
+ft.lines  **//**
+LibFist  **//**
+PhysOlymps  **//**
+4040  **//**
+photos  **//**
+dsct.projet-art  **//**
+histmaps  **//**
+dep.fonts  **//**
+dsc.films  **//**
+guitarscores  **//**
+assoens.github.io **//** 
