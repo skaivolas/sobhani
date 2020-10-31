@@ -6,9 +6,9 @@ layout: post
 
 <!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
 <h2>Pages</h2>
-<span>{% assign pages=site.pages | where: "iflanding", "yes"  %}{% for spage in pages  %}<span style="border: 15px;background: beige;padding: 15px;vertical-align: super;margin: 15px;display: inline-block;box-shadow: 5px 11px 20px 5px #a48888;"><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>
+<span>{% assign pages=site.pages | where: "iflanding", "yes"  %}{% for spage in pages  %}<span style="border: 15px;background: beige;padding: 15px;vertical-align: super;margin: 15px;display: inline-block;box-shadow: 5px 11px 20px 5px #a48888;"><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
 
-  <!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">--->
+<!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
 <h2>Posts</h2>
 <span>{% assign pages=site.posts | where: "iflanding", "yes"  %}{% for spage in pages  %}<span><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
 
