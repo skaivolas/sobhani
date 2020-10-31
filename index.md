@@ -4,6 +4,18 @@ layout: post
 ---
 
 
+[Каран](quran.md)
+[Беларуская савецкая паэзія](belarusian-soviet.md)
+[Біблія па-руску](bible-russian.md)
+[Сабака Баскервіляў па-ўкраінску](Sobaka_Baskerviliv_vyd_2010.md)
+[Дэрыда](Derrida.md)
+[Жыбран](Jibran.md)
+[Учебник белорусского языка](Uch-bel-movy-Kryv.md)
+[Домейко](Domeyko.md)
+[Ломоносов](Lomonossov.md)
+[История белорусской музыки](ИСТОРИЯ-белорусской-музыки.md)
+
+
 <!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
 <h2>Pages</h2>
 <span>{% assign pages=site.pages | where: "iflanding", "yes"  %}{% for spage in pages  %}<span style="border: 15px;background: beige;padding: 15px;vertical-align: super;margin: 15px;display: inline-block;box-shadow: 5px 11px 20px 5px #a48888;"><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
