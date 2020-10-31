@@ -44,7 +44,7 @@ and all the rest [index.html](articles-to-digest/)  **//**
 
 
 
-[Pravapis.org](https://Pravapis.org) — condense.
+[Pravapis.org](https://Pravapis.org) — condense to [https://pravapis-org.netlify.app/](https://pravapis-org.netlify.app/).
 
 
 ## Neighboring sites
