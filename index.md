@@ -13,7 +13,7 @@ layout: post
 <span>{% assign pages=site.posts | where: "iflanding", "yes"  %}{% for spage in pages  %}<span><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
 
 <span>
-<span style="border: 15px;background: beige;padding: 15px;vertical-align: super;margin: 15px;display: inline-block;box-shadow: 5px 11px 20px 5px #a48888;">Grammar Construction in the Minimalist Program: <a href="minimalist/jherring-0">0</a></span>&ensp;
+Grammar Construction in the Minimalist Program:  <span><a href="minimalist/jherring-0">0</a></span>&ensp;
 <span><a href="minimalist/jherring-1">1</a></span>&ensp;
 <span><a href="minimalist/jherring-2">2</a></span>&ensp;
 <span><a href="minimalist/jherring-3">3</a></span>&ensp;
