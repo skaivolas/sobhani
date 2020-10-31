@@ -4,16 +4,16 @@ layout: post
 ---
 
 
-[Каран](quran.md)
-[Беларуская савецкая паэзія](belarusian-soviet.md)
-[Біблія па-руску](bible-russian.md)
-[Сабака Баскервіляў па-ўкраінску](Sobaka_Baskerviliv_vyd_2010.md)
-[Дэрыда](Derrida.md)
-[Жыбран](Jibran.md)
-[Учебник белорусского языка](Uch-bel-movy-Kryv.md)
-[Домейко](Domeyko.md)
-[Ломоносов](Lomonossov.md)
-[История белорусской музыки](ИСТОРИЯ-белорусской-музыки.md)
+[Каран](quran)
+[Беларуская савецкая паэзія](belarusian-soviet)
+[Біблія па-руску](bible-russian)
+[Сабака Баскервіляў па-ўкраінску](Sobaka_Baskerviliv_vyd_2010)
+[Дэрыда](Derrida)
+[Жыбран](Jibran)
+[Учебник белорусского языка](Uch-bel-movy-Kryv)
+[Домейко](Domeyko)
+[Ломоносов](Lomonossov)
+[История белорусской музыки](ИСТОРИЯ-белорусской-музыки)
 
 
 [Rouveret — Programme minimaliste](rouveret/mobile/5602)
@@ -23,10 +23,10 @@ Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1
 
 ### ENS articles 
 
-[Genese-converted](ENS-articles/Genese-converted.md)
-[Lune-converted](ENS-articles/Lune-converted.md)
-[Genese-traduit](ENS-articles/Genese-traduit.md)
-[r-Genese-converted2](ENS-articles/r-Genese-converted2.md)
+[Genese-converted](ENS-articles/Genese-converted)
+[Lune-converted](ENS-articles/Lune-converted)
+[Genese-traduit](ENS-articles/Genese-traduit)
+[r-Genese-converted2](ENS-articles/r-Genese-converted2)
 
 ### Articles to digest
 
