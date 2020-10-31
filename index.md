@@ -28,6 +28,14 @@ Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1
 [Genese-traduit](ENS-articles/Genese-traduit.md)
 [r-Genese-converted2](ENS-articles/r-Genese-converted2.md)
 
+### Articles to digest
+
+[By-forms_Nebenformen_in_Biblical_Hebrew](articles-to-digest/%3fBy-forms_Nebenformen_in_Biblical_Hebrew.pdf)
+[Morphophonemic_Changes_in_Standard_Arabi](articles-to-digest/Morphophonemic_Changes_in_Standard_Arabi.pdf)
+[PhonesthemesinArabic](articles-to-digest/PhonesthemesinArabic.pdf)
+[processesofwordformationinEnglishandArabic](articles-to-digest/processesofwordformationinEnglishandArabic.pdf)
+
+
 <!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
 <h2>Pages</h2>
 <span>{% assign pages=site.pages | where: "iflanding", "yes"  %}{% for spage in pages  %}<span style="border: 15px;background: beige;padding: 15px;vertical-align: super;margin: 15px;display: inline-block;box-shadow: 5px 11px 20px 5px #a48888;"><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
