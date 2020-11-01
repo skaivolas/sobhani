@@ -50,6 +50,7 @@ and all the rest [index.html](articles-to-digest/)  **//**
 ## Neighboring sites
 
 [Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) — [Fundamentals of Modern Belarusian](https://s17.netlify.app/)
+— [Institut du Bélarus](https://institut-belarus.netlify.app/)
 
 
 ## Repositories
