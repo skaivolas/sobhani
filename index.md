@@ -10,9 +10,8 @@ layout: post
 
 
 
-[Rouveret — Programme minimaliste](rouveret/mobile/5602)  **//** 
-Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1](minimalist/jherring-1)  [2](minimalist/jherring-2)  [3](minimalist/jherring-3)  [4](minimalist/jherring-4)  [5](minimalist/jherring-5)  [6](minimalist/jherring-6)  [7](minimalist/jherring-7)
-
+**Syntaxe** [Rouveret — Programme minimaliste](rouveret/mobile/5602)  **//** 
+Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1](minimalist/jherring-1)  [2](minimalist/jherring-2)  [3](minimalist/jherring-3)  [4](minimalist/jherring-4)  [5](minimalist/jherring-5)  [6](minimalist/jherring-6)  [7](minimalist/jherring-7) **//**
 **Учебники белорусского языка**
 [Учебник белорусского языка](Uch-bel-movy-Kryv)  **//**
 [Fundamentals of Modern Belarusian](https://s17.netlify.app/) **//**
@@ -27,6 +26,8 @@ Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1
 
 [История белорусской музыки](ИСТОРИЯ-белорусской-музыки)  **//**
 [Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) **//**
+[Pravapis.org](https://Pravapis.org) — condense to [https://pravapis-org.netlify.app/](https://pravapis-org.netlify.app/) `sources` — cleanse. **//**
+
 
 ### ENS articles 
 
@@ -43,27 +44,11 @@ Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1
 [processesofwordformationinEnglishandArabic](articles-to-digest/processesofwordformationinEnglishandArabic.pdf)  **//**
 and all the rest [index.html](articles-to-digest/)  **//**
 
-<!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
-<h2>Pages</h2>
-<span>{% assign pages=site.pages | where: "iflanding", "yes"  %}{% for spage in pages  %}<span style="border: 15px;background: beige;padding: 15px;vertical-align: super;margin: 15px;display: inline-block;box-shadow: 5px 11px 20px 5px #a48888;"><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
-
-<!---<h1 class="content-listing-header sans">Articles</h1>          <hr class="slender">
-<h2>Posts</h2>
-<span>{% assign pages=site.posts | where: "iflanding", "yes"  %}{% for spage in pages  %}<span><a href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></span>&ensp;{% endfor %}</span>--->
-
-
-
-[Pravapis.org](https://Pravapis.org) — condense to [https://pravapis-org.netlify.app/](https://pravapis-org.netlify.app/) `sources` — cleanse.
-
-
 ## Neighboring sites
 
 [Institut du Bélarus](https://institut-belarus.netlify.app/) — ajouter statuts des précédesseurs et contacter
 
-
 ## Repositories
-
-
 khazarzar-books  **//**
 thesis-handbooks  **//**
 khazarzar-site  **//**
