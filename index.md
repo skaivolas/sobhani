@@ -26,6 +26,7 @@ Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1
 ### Контентные сайты
 
 [История белорусской музыки](ИСТОРИЯ-белорусской-музыки)  **//**
+[Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) **//**
 
 ### ENS articles 
 
@@ -57,7 +58,7 @@ and all the rest [index.html](articles-to-digest/)  **//**
 
 ## Neighboring sites
 
-[Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) — [Institut du Bélarus](https://institut-belarus.netlify.app/)
+[Institut du Bélarus](https://institut-belarus.netlify.app/) — ajouter statuts des précédesseurs et contacter
 
 
 ## Repositories
