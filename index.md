@@ -4,20 +4,28 @@ layout: post
 ---
 
 
-[Каран](quran)
-[Беларуская савецкая паэзія](belarusian-soviet)  **//**
+[Каран](quran) **//**
 [Біблія па-руску](bible-russian)  **//**
-[Сабака Баскервіляў па-ўкраінску](Sobaka_Baskerviliv_vyd_2010)  **//**
-[Дэрыда](Derrida)  **//**
-[Жыбран](Jibran)  **//**
-[Учебник белорусского языка](Uch-bel-movy-Kryv)  **//**
-[Домейко](Domeyko)  **//**
 [Ломоносов](Lomonossov)  **//**
-[История белорусской музыки](ИСТОРИЯ-белорусской-музыки)  **//**
+
 
 
 [Rouveret — Programme minimaliste](rouveret/mobile/5602)  **//** 
 Grammar Construction in the Minimalist Program: [0](minimalist/jherring-0)  [1](minimalist/jherring-1)  [2](minimalist/jherring-2)  [3](minimalist/jherring-3)  [4](minimalist/jherring-4)  [5](minimalist/jherring-5)  [6](minimalist/jherring-6)  [7](minimalist/jherring-7)
+
+**Учебники белорусского языка**
+[Учебник белорусского языка](Uch-bel-movy-Kryv)  **//**
+[Fundamentals of Modern Belarusian](https://s17.netlify.app/) **//**
+
+### Пераклады
+[Сабака Баскервіляў па-ўкраінску](Sobaka_Baskerviliv_vyd_2010)  **//**
+[Дэрыда](Derrida)  **//**
+[Жыбран](Jibran)  **//**
+[Домейко](Domeyko)  **//**
+
+### Контентные сайты
+
+[История белорусской музыки](ИСТОРИЯ-белорусской-музыки)  **//**
 
 ### ENS articles 
 
@@ -49,8 +57,7 @@ and all the rest [index.html](articles-to-digest/)  **//**
 
 ## Neighboring sites
 
-[Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) — [Fundamentals of Modern Belarusian](https://s17.netlify.app/)
-— [Institut du Bélarus](https://institut-belarus.netlify.app/)
+[Руслан Хазарзар — Сын человеческий](https://khazarzar.netlify.app/) — [Institut du Bélarus](https://institut-belarus.netlify.app/)
 
 
 ## Repositories
