@@ -46,7 +46,8 @@ and all the rest [index.html](articles-to-digest/)  **//**
 
 ## Neighboring sites
 
-[Institut du Bélarus](https://institut-belarus.netlify.app/) — ajouter statuts des précédesseurs et contacter
+*r-* [Institut du Bélarus](https://institut-belarus.netlify.app/) — ajouter statuts des précédesseurs et contacter **//**
+`public` [belinstitute.netlify.app](https://belinstitute.netlify.app/), `master` from ISI [initial-isi.netlify.app](https://initial-isi.netlify.app/)
 
 ## Repositories
 khazarzar-books  **//**
