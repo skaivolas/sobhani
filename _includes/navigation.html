@@ -14,13 +14,5 @@
   {% endif %}
 {% endfor %}
 
-{% if prev_post %}
-  <div class="article__previous">
-    <a href="{{ prev_post.url }}">← {{ prev_post.title }}</a>
-  </div>
-{% endif %}
-{% if next_post %}
-  <div class="article__next">
-    <a href="{{ next_post.url }}">{{ next_post.title }} →</a>
-  </div>
-{% endif %}
+{% if prev_post %} <a href="{{ prev_post.url }}">← {{ prev_post.title }}</a>{% endif %}
+{% if next_post %} <a href="{{ next_post.url }}">{{ next_post.title }} →</a>{% endif %}
