@@ -4,5 +4,5 @@ layout: post
 ---
 
 {% for p in site.pages %}
-<p>{{p.title}}</p>
+<p><a href="{{p.url}}">{{p.title}}</a></p>
 {% endfor %}
