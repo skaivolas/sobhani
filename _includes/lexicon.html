@@ -1,6 +1,6 @@
-{{ param_id }}
+{{ include.param_id }}
 <ul>
-  {% for item in site.data.lexicons | where_exp: "elem", "elem.id==param_id" %}
+  {% for item in site.data.lexicons | where_exp: "elem", "elem.id==include.param_id" %}
     <li> {{ item }} </li>
   {% endfor %}
 </ul>
