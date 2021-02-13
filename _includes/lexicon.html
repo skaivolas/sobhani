@@ -1,6 +1,7 @@
 {{ include.param_id }}
+{% assign lexicon = site.data.lexicons | where: "id", include.param_id %}
 <ul>
-  {% for item in site.data.lexicons | where: "id", include.param_id %}
+  {% for item in lexicon %}
     <li> {{ item }} </li>
   {% endfor %}
 </ul>
