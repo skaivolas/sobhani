@@ -1,6 +1,6 @@
 ---
 title: Page
-layout: post
+layout: page
 navlevel: header
 position: 50
 ---
